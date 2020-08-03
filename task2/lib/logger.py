@@ -13,12 +13,12 @@ else:
 
 fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(message)s')
 
-fhandler = logging.FileHandler(f'log/{logname}_{time.strftime("%Y_%m_%d")}.log', encoding='utf-8')
+fhandler = logging.FileHandler(f'./log/{logname}_{time.strftime("%Y_%m_%d")}.log', encoding='utf-8')
 fhandler.level = logging.DEBUG
 fhandler.formatter = fmt
 
 shandler = logging.StreamHandler(sys.stderr)
-shandler.level = logging.ERROR
+shandler.level = logging.DEBUG
 shandler.formatter = fmt
 
 log.addHandler(fhandler)

@@ -1,5 +1,12 @@
 import json
+import select
+import sys
 import time
+from socket import SOCK_STREAM, AF_INET, socket
+from threading import Thread
+
+from lib.logger import log
+from lib.decorators import log_dec
 
 
 class Message:
@@ -60,3 +67,136 @@ class Message:
     def to_dict(self):
         return dict(action=self.action, time=self.time_date, to=self.to_user,
                     from_user=self.from_user, message=self.message)
+
+
+class Client:
+    def __init__(self, address, name):
+        self.address = address
+        self.name = name
+        self.sock = self.get_sock()
+
+    def get_sock(self):
+        sock = socket(AF_INET, SOCK_STREAM)
+        sock.connect(self.address)
+        return sock
+
+    @log_dec
+    def send_loop(self):
+        while True:
+            key = input(f'Введите команду: "q" для выхода, "m" для нового сообщения:\n')
+            if key == 'q':
+                sys.exit()
+            elif key == 'm':
+                message = Message()
+                message.create('message', self.name)
+                self.sender(message.encode())
+
+    @log_dec
+    def get_loop(self):
+        while True:
+            print(self.sock)
+            try:
+                data = self.sock.recv(1024)
+                msg = Message()
+                Message.decode(self=msg, data=data)
+                if msg.to_user == self.name or msg.to_user == 'all':
+                    print(f'\t{msg.from_user} said to {msg.to_user} at {msg.time_date}:\n{msg.message}')
+            except OSError as e:
+                self.crit_log(e)
+
+    @log_dec
+    def sender(self, msg):
+        try:
+            self.sock.send(msg)
+            log.info(f'{msg} sent')
+        except OSError as e:
+            self.crit_log(e)
+
+    @log_dec
+    def get_message(self):
+        try:
+            data = self.sock.recv(1024)
+            msg = Message()
+            Message.decode(self=msg, data=data)
+            print(f'{msg.from_user} at {msg.time_date} said to {msg.to_user}:\n\t{msg.message}')
+        except OSError as e:
+            self.crit_log(e)
+
+    @log_dec
+    def crit_log(self, err):
+        log.critical(f'Something wrong. No answer from server.\n\t\t{err}')
+        sys.exit()
+
+    @log_dec
+    def mainloop(self):
+        thr1 = Thread(target=self.get_loop)
+        thr1.start()
+        self.send_loop()
+
+
+class Server:
+    def __init__(self, address):
+        self.address = address
+        self.sock = self.get_sock()
+        self.clients = []
+
+    def get_sock(self):
+        sock = socket(AF_INET, SOCK_STREAM)
+        sock.connect(self.address)
+        sock.bind(self.address)
+        sock.listen(5)
+        sock.settimeout(0.2)
+        return sock
+
+    def read_requests(self, r_clients):
+        responses = {}
+        for sock in r_clients:
+            try:
+                data = sock.recv(1024)
+                responses[sock] = data.decode('utf-8')
+                log.debug(f'data = {responses[sock]}')
+            except Exception as e:
+                log.error(f'Клиент {sock.fileno()} {sock.getpeername()} отключился\n\t\t{e}')
+                self.clients.remove(sock)
+        return responses
+
+    def write_responses(self, requests, w_clients):
+        for sock in self.clients:
+            if sock in requests:
+                try:
+                    resp = requests[sock].encode('utf-8')
+
+                    for i in w_clients:
+                        i.send(resp)
+                except Exception as e:
+                    print(e)
+                    log.error(f'Клиент {sock.fileno()} {sock.getpeername()} отключился\n\t\t{e}')
+                    sock.close()
+                    self.clients.remove(sock)
+
+    @log_dec
+    def mainloop(self):
+        while True:
+            try:
+                conn, addr = self.sock.accept()
+            except OSError as e:
+                # log.error(f'{e}')
+                pass
+            else:
+                print("Получен запрос на соединение с %s" % str(addr))
+                log.info(f'Получен запрос на соединение с {str(addr)}')
+                self.clients.append(conn)
+                print(self.clients)
+            finally:
+                wait = 50
+                r = []
+                w = []
+                try:
+                    r, w, e = select.select(self.clients, self.clients, [], wait)
+                except Exception as e:
+                    # log.error(f'{e}')
+                    pass
+
+                requests = self.read_requests(r)
+                if requests:
+                    self.write_responses(requests, w)
