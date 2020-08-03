@@ -94,7 +94,6 @@ class Client:
     @log_dec
     def get_loop(self):
         while True:
-            print(self.sock)
             try:
                 data = self.sock.recv(1024)
                 msg = Message()
@@ -122,8 +121,8 @@ class Client:
         except OSError as e:
             self.crit_log(e)
 
-    @log_dec
-    def crit_log(self, err):
+    @staticmethod
+    def crit_log(err):
         log.critical(f'Something wrong. No answer from server.\n\t\t{err}')
         sys.exit()
 
@@ -139,15 +138,14 @@ class Server:
         self.address = address
         self.sock = self.get_sock()
         self.clients = []
+        self.names = []
 
-    def get_sock(self):
+    @staticmethod
+    def get_sock():
         sock = socket(AF_INET, SOCK_STREAM)
-        sock.connect(self.address)
-        sock.bind(self.address)
-        sock.listen(5)
-        sock.settimeout(0.2)
         return sock
 
+    @log_dec
     def read_requests(self, r_clients):
         responses = {}
         for sock in r_clients:
@@ -160,6 +158,7 @@ class Server:
                 self.clients.remove(sock)
         return responses
 
+    @log_dec
     def write_responses(self, requests, w_clients):
         for sock in self.clients:
             if sock in requests:
@@ -169,18 +168,20 @@ class Server:
                     for i in w_clients:
                         i.send(resp)
                 except Exception as e:
-                    print(e)
                     log.error(f'Клиент {sock.fileno()} {sock.getpeername()} отключился\n\t\t{e}')
                     sock.close()
                     self.clients.remove(sock)
 
     @log_dec
     def mainloop(self):
+        print(self.sock, self.address)
+        self.sock.bind(self.address)
+        self.sock.listen(5)
+        self.sock.settimeout(0.2)
         while True:
             try:
                 conn, addr = self.sock.accept()
-            except OSError as e:
-                # log.error(f'{e}')
+            except OSError:
                 pass
             else:
                 print("Получен запрос на соединение с %s" % str(addr))
@@ -193,8 +194,7 @@ class Server:
                 w = []
                 try:
                     r, w, e = select.select(self.clients, self.clients, [], wait)
-                except Exception as e:
-                    # log.error(f'{e}')
+                except Exception:
                     pass
 
                 requests = self.read_requests(r)
