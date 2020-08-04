@@ -18,7 +18,7 @@ fhandler.level = logging.DEBUG
 fhandler.formatter = fmt
 
 shandler = logging.StreamHandler(sys.stderr)
-shandler.level = logging.ERROR
+shandler.level = logging.DEBUG
 shandler.formatter = fmt
 
 log.addHandler(fhandler)

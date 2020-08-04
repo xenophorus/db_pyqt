@@ -80,7 +80,6 @@ class Client:
         sock.connect(self.address)
         return sock
 
-    @log_dec
     def send_loop(self):
         while True:
             key = input(f'Введите команду: "q" для выхода, "m" для нового сообщения:\n')
@@ -91,7 +90,6 @@ class Client:
                 message.create('message', self.name)
                 self.sender(message.encode())
 
-    @log_dec
     def get_loop(self):
         while True:
             try:
@@ -103,7 +101,6 @@ class Client:
             except OSError as e:
                 self.crit_log(e)
 
-    @log_dec
     def sender(self, msg):
         try:
             self.sock.send(msg)
@@ -111,7 +108,6 @@ class Client:
         except OSError as e:
             self.crit_log(e)
 
-    @log_dec
     def get_message(self):
         try:
             data = self.sock.recv(1024)
@@ -126,7 +122,6 @@ class Client:
         log.critical(f'Something wrong. No answer from server.\n\t\t{err}')
         sys.exit()
 
-    @log_dec
     def mainloop(self):
         thr1 = Thread(target=self.get_loop)
         thr1.start()
@@ -145,7 +140,6 @@ class Server:
         sock = socket(AF_INET, SOCK_STREAM)
         return sock
 
-    @log_dec
     def read_requests(self, r_clients):
         responses = {}
         for sock in r_clients:
@@ -158,7 +152,6 @@ class Server:
                 self.clients.remove(sock)
         return responses
 
-    @log_dec
     def write_responses(self, requests, w_clients):
         for sock in self.clients:
             if sock in requests:

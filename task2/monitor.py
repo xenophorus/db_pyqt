@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from socket import SOCK_STREAM, AF_INET, socket
 from lib.funx import *
 from lib.logger import *
