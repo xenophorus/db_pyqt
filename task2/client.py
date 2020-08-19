@@ -19,7 +19,7 @@ def main():
     print(args.prt, name)
     log.info(f'client {name} started')
 
-    client = Client((ip, args.prt), name)
+    client = Client(ip, args.prt, name)
     # client = Client(('127.0.0.1', 9090), 'user')
     client.mainloop()
 

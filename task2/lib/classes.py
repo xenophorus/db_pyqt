@@ -7,9 +7,11 @@ from threading import Thread
 
 from lib.logger import log
 from lib.decorators import log_dec
+from lib.meta import HostVerifier, PortVerifier, MyMetaClass
 
 
 class Message:
+
     def __init__(self):
         self.action = 'message'
         self.from_user = 'user'
@@ -44,14 +46,13 @@ class Message:
         return dict(action=self.action, time=self.time_date, to=self.to_user,
                     from_user=self.from_user, message=self.message)
 
-    @staticmethod
     def decode(self, data):
-        ddata = self._jsoncode(data, 'dec')
-        self.action = ddata.get('action')
-        self.time_date = ddata.get('time')
-        self.to_user = ddata.get('to')
-        self.from_user = ddata.get('from_user')
-        self.message = ddata.get('message')
+        d_data = self._jsoncode(data, 'dec')
+        self.action = d_data.get('action')
+        self.time_date = d_data.get('time')
+        self.to_user = d_data.get('to')
+        self.from_user = d_data.get('from_user')
+        self.message = d_data.get('message')
         return dict(action=self.action, time=self.time_date, to=self.to_user,
                     from_user=self.from_user, message=self.message)
 
@@ -70,8 +71,16 @@ class Message:
 
 
 class Client:
-    def __init__(self, address, name):
-        self.address = address
+
+    host = HostVerifier()
+    port = PortVerifier()
+
+    # host = HostVerifier()
+
+    def __init__(self, host, port, name):  # TODO: Убрать нафиг self.address
+        self.host = host
+        self.port = port
+        self.address = (self.host, self.port,)
         self.name = name
         self.sock = self.get_sock()
 
@@ -128,9 +137,15 @@ class Client:
         self.send_loop()
 
 
-class Server:
-    def __init__(self, address):
-        self.address = address
+class Server(metaclass=MyMetaClass):
+
+    host = HostVerifier()
+    port = PortVerifier()
+
+    def __init__(self, host, port):  # TODO: Убрать нафиг self.address
+        self.host = host
+        self.port = port
+        self.address = (self.host, self.port,)
         self.sock = self.get_sock()
         self.clients = []
         self.names = []

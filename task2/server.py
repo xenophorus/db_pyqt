@@ -14,8 +14,8 @@ def main(*args, **kwargs):
     parser.add_argument('-d', action='store', dest='ip')
     args = parser.parse_args()
     ip = str(args.ip).strip()
-    print(ip, args.prt)
-    s = Server((ip, args.prt),)
+    # s = Server(ip, args.prt,)
+    s = Server('127.0.0.1', 9090,)
     s.mainloop()
 
 
