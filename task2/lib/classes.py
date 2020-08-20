@@ -143,17 +143,12 @@ class Server(metaclass=MyMetaClass):
     port = PortVerifier()
 
     def __init__(self, host, port):  # TODO: Убрать нафиг self.address
+        self.sock = socket(AF_INET, SOCK_STREAM)
         self.host = host
         self.port = port
         self.address = (self.host, self.port,)
-        self.sock = self.get_sock()
         self.clients = []
         self.names = []
-
-    @staticmethod
-    def get_sock():
-        sock = socket(AF_INET, SOCK_STREAM)
-        return sock
 
     def read_requests(self, r_clients):
         responses = {}
