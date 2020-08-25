@@ -4,6 +4,7 @@ import sys
 import time
 from socket import SOCK_STREAM, AF_INET, socket
 from threading import Thread
+
 from lib.logger import log
 from lib.decorators import log_dec
 from lib.meta import HostVerifier, PortVerifier, ServerMetaClass
@@ -75,21 +76,16 @@ class Client:
 
     # host = HostVerifier()
 
-    def __init__(self, host, port, name):
+    def __init__(self, host, port, name):  # TODO: Убрать нафиг self.address
         self.host = host
         self.port = port
+        self.address = (self.host, self.port,)
         self.name = name
         self.sock = self.get_sock()
-        self.introduce()
-
-    def introduce(self):
-        message = Message()
-        message.create('introduce', self.name)
-        self.sender(message.encode())
 
     def get_sock(self):
         sock = socket(AF_INET, SOCK_STREAM)
-        sock.connect((self.host, self.port,))
+        sock.connect(self.address)
         return sock
 
     def send_loop(self):
