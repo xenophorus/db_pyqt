@@ -11,7 +11,6 @@ from lib.meta import HostVerifier, PortVerifier, ServerMetaClass
 
 
 class Message:
-
     def __init__(self):
         self.action = 'message'
         self.from_user = 'user'
