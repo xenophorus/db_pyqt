@@ -29,7 +29,6 @@ class PortVerifier:
 
 class ServerMetaClass:
     def __new__(cls, name, bases, dct):
-        print(f'name: {name}\nbases: {bases}\ndct: {dct}\n\n')
         attrs, methods = [], []
         for f, g in dct.items():
             try:
@@ -38,7 +37,6 @@ class ServerMetaClass:
                 pass
             else:
                 for el in ret:
-                    print(el)
                     if el.opname == 'LOAD_GLOBAL':
                         if el.opname not in methods:
                             methods.append(el.argval)
@@ -50,9 +48,7 @@ class ServerMetaClass:
         if 'SOCK_STREAM' not in attrs and 'AF_INET' not in methods:
             raise TypeError('Incorrect protocol')
 
-        print(methods, '\n', attrs)
         return type.__new__(type, name, bases, dct)
 
     def __init__(self, name, bases, dct):
-        print(f'init class {name}')
         super(ServerMetaClass, self).__init__(name, bases, dct)

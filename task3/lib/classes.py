@@ -74,9 +74,7 @@ class Client:
     host = HostVerifier()
     port = PortVerifier()
 
-    # host = HostVerifier()
-
-    def __init__(self, host, port, name):  # TODO: Убрать нафиг self.address
+    def __init__(self, host, port, name):
         self.host = host
         self.port = port
         self.address = (self.host, self.port,)
@@ -86,6 +84,7 @@ class Client:
     def get_sock(self):
         sock = socket(AF_INET, SOCK_STREAM)
         sock.connect(self.address)
+        print(sock.getsockname()[1])
         return sock
 
     def send_loop(self):
@@ -125,12 +124,18 @@ class Client:
         except OSError as e:
             self.crit_log(e)
 
+    def __introduce(self):
+        msg = Message()
+        msg.create('introduce', self.name)
+        self.sender(msg.encode())
+
     @staticmethod
     def crit_log(err):
         log.critical(f'Something wrong. No answer from server.\n\t\t{err}')
         sys.exit()
 
     def mainloop(self):
+        self.__introduce()
         thr1 = Thread(target=self.get_loop)
         thr1.start()
         self.send_loop()
@@ -141,7 +146,7 @@ class Server(metaclass=ServerMetaClass):
     host = HostVerifier()
     port = PortVerifier()
 
-    def __init__(self, host, port):  # TODO: Убрать нафиг self.address
+    def __init__(self, host, port):
         self.sock = socket(AF_INET, SOCK_STREAM)
         self.host = host
         self.port = port
@@ -155,6 +160,7 @@ class Server(metaclass=ServerMetaClass):
             try:
                 data = sock.recv(1024)
                 responses[sock] = data.decode('utf-8')
+                print(r_clients, responses)
                 log.debug(f'data = {responses[sock]}')
             except Exception as e:
                 log.error(f'Клиент {sock.fileno()} {sock.getpeername()} отключился\n\t\t{e}')
