@@ -1,10 +1,12 @@
 import os
-from sqlalchemy import Column, Integer, String, Boolean, create_engine
+from sqlalchemy import Column, Integer, String, Boolean, create_engine, update
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
 path = os.getcwd()
+
+print(path)
 
 
 engine = create_engine(f'sqlite:///{path}/test.sql', echo=False, pool_recycle=7200)
@@ -40,27 +42,37 @@ Session.configure(bind=engine)
 session = Session()
 
 
-user1 = User('Olga', '192.168.1.31', '', True)
-user2 = User('Alex', '192.168.1.32', '', True)
-user3 = User('Dan', '192.168.1.33', '', True)
-user4 = User('Nastya', '192.168.1.34', '', True)
-user5 = User('Helen', '192.168.1.35', '', True)
+def db_user_add(user):
+    name, ip, sock, is_active = user
+    session.add(User(name, ip, sock, is_active))
+    session.commit()
 
-session.add_all([user1, user2, user3, user4, user5])
 
-session.commit()
+def db_change_use_activity(id):
+    session.query(User).filter(User.id == id).update({'is_active': False})
+    session.commit()
 
-# print(user2.id)
-# user4.is_active = False
 
-# for ins in session.query(User):
-#     print(ins)
-#
-# print(session.query(User))
+def db_user_delete(id):
+    session.query(User).filter(User.id == id).delete()
+    session.commit()
 
-# session.flush()
-a = session.query(User).filter(User.ip == '192.168.1.35')
+
+
+db_user_add(('Carina', '192.168.2.31', '', True))
+db_user_add(('Ann', '192.168.1.32', '', True))
+db_user_add(('Lynda', '192.168.1.32', '', True))
+db_user_add(('Jake', '192.168.1.32', '', True))
+db_user_add(('Timothy', '192.168.1.32', '', True))
+
+
+db_user_delete(22)
+
+
+db_change_use_activity(29)
+
+
+a = session.query(User)
 for i in a:
-    print(i.ip)
-# session.query(User).filter(User.ip == '192.168.1.35').delete()
-session.commit()
+    print(i)
+

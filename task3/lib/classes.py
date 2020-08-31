@@ -89,7 +89,9 @@ class Client:
 
     def send_loop(self):
         while True:
-            key = input(f'Введите команду: "q" для выхода, "m" для нового сообщения:\n')
+            key = input(f'Введите команду: '
+                        f'"q" для выхода, '
+                        f'"m" для нового сообщения:\n')
             if key == 'q':
                 sys.exit()
             elif key == 'm':

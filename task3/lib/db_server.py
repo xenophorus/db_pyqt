@@ -24,7 +24,7 @@ class Users:
         self.username = username
         self.ip = ip
         self.v_port = v_port
-        self.is_active - is_active
+        self.is_active = is_active
 
 
 def add_user(tpl):
@@ -34,7 +34,6 @@ def add_user(tpl):
 
 
 def mod_user(sock):
-
     session.query(Users).filter(sock)
 
 
@@ -42,4 +41,5 @@ Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 Session.configure(bind=engine)
 session = Session()
+
 
