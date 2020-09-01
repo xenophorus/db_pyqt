@@ -13,11 +13,12 @@ class Client:
     host = HostVerifier()
     port = PortVerifier()
 
-    def __init__(self, host, port, name):
+    def __init__(self, host, port, name, hex_id):
         self.host = host
         self.port = port
         self.address = (self.host, self.port,)
         self.name = name
+        self.hex_id = hex_id
         self.sock = self.get_sock()
 
     def get_sock(self):
@@ -43,7 +44,7 @@ class Client:
             try:
                 data = self.sock.recv(1024)
                 msg = Message()
-                Message.decode(self=msg, data=data)
+                msg.decode(data)
                 if msg.to_user == self.name or msg.to_user == 'all':
                     print(f'\t{msg.from_user} said to {msg.to_user} at {msg.time_date}:\n{msg.message}')
             except OSError as e:
@@ -60,8 +61,13 @@ class Client:
         try:
             data = self.sock.recv(1024)
             msg = Message()
-            Message.decode(self=msg, data=data)
-            print(f'{msg.from_user} at {msg.time_date} said to {msg.to_user}:\n\t{msg.message}')
+            msg.decode(data)
+            if msg.action == 'auth_request':
+                m = Message()
+                m.create_info('auth_info', self.name, self.hex_id, self.sock.getsockname())
+
+            if msg.action == 'message':
+                print(f'{msg.from_user} at {msg.time_date} said to {msg.to_user}:\n\t{msg.message}')
         except OSError as e:
             self.crit_log(e)
 

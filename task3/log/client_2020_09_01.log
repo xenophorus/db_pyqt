@@ -1,0 +1,6 @@
+2020-09-01 11:14:30,557 INFO logger logging started
+2020-09-01 11:16:59,276 INFO logger logging started
+2020-09-01 11:17:06,775 INFO class_client b'{"action": "message", "time": "Tue Sep  1 11:17:03 2020", "to": "all", "from_user": "alex", "message": "123"}' sent
+2020-09-01 11:22:05,636 INFO logger logging started
+2020-09-01 11:25:13,639 INFO logger logging started
+2020-09-01 14:57:10,615 INFO logger logging started

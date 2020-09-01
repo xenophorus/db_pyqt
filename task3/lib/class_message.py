@@ -28,6 +28,15 @@ class Message:
     def _set_msg(self):
         self.message = input('Введите сообщение: \n')
 
+    def create_info(self, action, from_user, to_user, msg):
+        self.action = action
+        self.time_date = time.asctime()
+        self.from_user = from_user
+        self.to_user = to_user
+        self.message = msg
+        return dict(action=self.action, time=self.time_date, to=self.to_user,
+                    from_user=self.from_user, message=self.message)
+
     def create(self, action, from_user):
         self.action = action
         self.time_date = time.asctime()

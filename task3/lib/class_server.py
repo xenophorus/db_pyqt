@@ -49,6 +49,14 @@ class Server(metaclass=ServerMetaClass):
                     self.clients.remove(sock)
 
     @log_dec
+    def auth_request(self, conn):
+        msg = Message()
+        msg.create_info('auth_request', '', '', '')
+        msg.encode()
+        conn.send(msg)
+        print("addr: ", conn)
+
+    @log_dec
     def mainloop(self):
         print(self.sock, self.address)
         self.sock.bind(self.address)
@@ -62,6 +70,8 @@ class Server(metaclass=ServerMetaClass):
             else:
                 print("Получен запрос на соединение с %s" % str(addr))
                 log.info(f'Получен запрос на соединение с {str(addr)}')
+                self.auth_request(conn)
+
                 self.clients.append(conn)
                 print(self.clients)
             finally:

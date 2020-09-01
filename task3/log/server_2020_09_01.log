@@ -619,3 +619,15 @@
 2020-09-01 01:31:15,945 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58284)
 2020-09-01 01:31:15,946 DEBUG class_server data = {"action": "message", "time": "Tue Sep  1 01:31:01 2020", "to": "all", "from_user": "alex", "message": "123123123123123"}
 2020-09-01 01:31:16,146 DEBUG class_server data = {"action": "message", "time": "Tue Sep  1 01:31:10 2020", "to": "alex", "from_user": "alex", "message": ""}
+2020-09-01 11:13:42,578 INFO logger logging started
+2020-09-01 11:14:30,563 INFO class_server Получен запрос на соединение с ('127.0.0.1', 56519)
+2020-09-01 11:16:55,675 INFO logger logging started
+2020-09-01 11:16:59,281 INFO class_server Получен запрос на соединение с ('127.0.0.1', 56544)
+2020-09-01 11:17:37,233 DEBUG class_server data = {"action": "message", "time": "Tue Sep  1 11:17:03 2020", "to": "all", "from_user": "alex", "message": "123"}
+2020-09-01 11:22:02,330 INFO logger logging started
+2020-09-01 11:22:05,641 INFO class_server Получен запрос на соединение с ('127.0.0.1', 56581)
+2020-09-01 11:25:10,196 INFO logger logging started
+2020-09-01 11:25:13,644 INFO class_server Получен запрос на соединение с ('127.0.0.1', 56599)
+2020-09-01 14:57:06,029 INFO logger logging started
+2020-09-01 14:57:10,622 INFO class_server Получен запрос на соединение с ('127.0.0.1', 63876)
+2020-09-01 14:58:07,329 INFO logger logging started
