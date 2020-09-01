@@ -4,7 +4,7 @@ import argparse
 
 from lib.decorators import log_dec
 from lib.logger import *
-from lib.classes import Client
+from lib.class_client import Client
 
 
 @log_dec
@@ -13,13 +13,15 @@ def main():
     parser.add_argument('-p', action='store', dest='prt', type=int)
     parser.add_argument('-d', action='store', dest='ip')
     parser.add_argument('-n', action='store', dest='name')
+    parser.add_argument('-l', action='store', dest='login')
+    parser.add_argument('-s', action='store', dest='password')
     args = parser.parse_args()
     ip = str(args.ip).strip()
     name = str(args.name).strip()
-    log.info(f'client {name} started')
 
     # client = Client(ip, args.prt, name)
-    client = Client('127.0.0.1', 9090, 'user')
+    client = Client('127.0.0.1', 9090, 'alex')
+
     client.mainloop()
 
 

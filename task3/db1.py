@@ -42,37 +42,37 @@ Session.configure(bind=engine)
 session = Session()
 
 
-def db_user_add(user):
-    name, ip, sock, is_active = user
-    session.add(User(name, ip, sock, is_active))
-    session.commit()
-
-
-def db_change_use_activity(id):
-    session.query(User).filter(User.id == id).update({'is_active': False})
-    session.commit()
-
-
-def db_user_delete(id):
-    session.query(User).filter(User.id == id).delete()
-    session.commit()
-
-
-
-db_user_add(('Carina', '192.168.2.31', '', True))
-db_user_add(('Ann', '192.168.1.32', '', True))
-db_user_add(('Lynda', '192.168.1.32', '', True))
-db_user_add(('Jake', '192.168.1.32', '', True))
-db_user_add(('Timothy', '192.168.1.32', '', True))
-
-
-db_user_delete(22)
-
-
-db_change_use_activity(29)
-
-
-a = session.query(User)
-for i in a:
-    print(i)
+# def db_user_add(user):
+#     name, ip, sock, is_active = user
+#     session.add(User(name, ip, sock, is_active))
+#     session.commit()
+#
+#
+# def db_change_use_activity(id):
+#     session.query(User).filter(User.id == id).update({'is_active': False})
+#     session.commit()
+#
+#
+# def db_user_delete(id):
+#     session.query(User).filter(User.id == id).delete()
+#     session.commit()
+#
+#
+#
+# db_user_add(('Carina', '192.168.2.31', '', True))
+# db_user_add(('Ann', '192.168.1.32', '', True))
+# db_user_add(('Lynda', '192.168.1.32', '', True))
+# db_user_add(('Jake', '192.168.1.32', '', True))
+# db_user_add(('Timothy', '192.168.1.32', '', True))
+#
+#
+# db_user_delete(22)
+#
+#
+# db_change_use_activity(29)
+#
+#
+# a = session.query(User)
+# for i in a:
+#     print(i)
 

@@ -3,7 +3,7 @@
 import argparse
 import sys
 
-from lib.classes import Server
+from lib.class_server import Server
 from lib.decorators import log_dec
 
 
