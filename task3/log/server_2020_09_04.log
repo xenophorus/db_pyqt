@@ -43,3 +43,15 @@
 2020-09-04 12:55:48,328 INFO class_server Получен запрос на соединение с ('127.0.0.1', 56805)
 2020-09-04 12:55:48,401 DEBUG decorators Отработала фуккция auth_request с параметрами ((<lib.class_server.Server object at 0x00000269C30C8D30>, <socket.socket fd=944, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9090), raddr=('127.0.0.1', 56805)>), {})
 		вызванная mainloop
+2020-09-04 16:23:56,465 INFO logger logging started
+2020-09-04 16:24:00,107 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60803)
+2020-09-04 16:24:00,177 DEBUG decorators Отработала фуккция auth_request с параметрами ((<lib.class_server.Server object at 0x0000022DD58D95E0>, <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9090), raddr=('127.0.0.1', 60803)>), {})
+		вызванная mainloop
+2020-09-04 16:30:31,623 INFO logger logging started
+2020-09-04 16:30:39,656 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60956)
+2020-09-04 16:30:39,728 DEBUG decorators Отработала фуккция auth_request с параметрами ((<lib.class_server.Server object at 0x000001EA3D5385E0>, <socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9090), raddr=('127.0.0.1', 60956)>), {})
+		вызванная mainloop
+2020-09-04 16:45:21,701 INFO logger logging started
+2020-09-04 16:45:24,985 INFO class_server Получен запрос на соединение с ('127.0.0.1', 61287)
+2020-09-04 16:45:25,052 DEBUG decorators Отработала фуккция auth_request с параметрами ((<lib.class_server.Server object at 0x0000024709488A00>, <socket.socket fd=972, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9090), raddr=('127.0.0.1', 61287)>), {})
+		вызванная mainloop

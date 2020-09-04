@@ -1,8 +1,8 @@
 import os
 
-from sqlalchemy import Column, Integer, String, Boolean, create_engine, DateTime
+from sqlalchemy import Column, Integer, String, Boolean, create_engine, DateTime, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, relationship
 
 path = os.getcwd()
 
@@ -13,13 +13,17 @@ engine = create_engine(f'sqlite:///{path}/db/server.sql', echo=True, pool_recycl
 Base = declarative_base()
 
 
+# TODO Relationships between tables; https://docs.sqlalchemy.org/en/13/orm/tutorial.html
+
 class Users:
     __tablename__ = 'all_users'
-    id = Column(Integer, primary_key=True)
-    username = Column(String(50))
-    user_hash = Column(String(100))
+    id = Column(Integer, primary_key=True, nullable=False)
+    username = Column(String(50), unique=True, nullable=False)
+    user_hash = Column(String(100), unique=True, nullable=False)
     ip = Column(String(50))
     is_active = Column(Boolean)
+
+    users_log = relationship('UsersLog', backref='all_users', order_by='UsersLog.id')
 
     def __init__(self, username, user_hash, ip, is_active):
         self.username = username
@@ -31,9 +35,11 @@ class Users:
 class UsersLog:
     __tablename__ = 'users_log'
     id = Column(Integer, primary_key=True)
-    user_hash = Column(String(100))
-    time_conn = Column(DateTime())
-    time_exit = Column(DateTime())
+    user_hash = Column(String(100), ForeignKey('all_users.user_hash'))
+    time_conn = Column(DateTime)
+    time_exit = Column(DateTime)
+
+    all_users = relationship('Users', backref='users_log', order_by='Users.id')
 
     def __init__(self, user_hash, time_conn, time_exit):
         self.user_hash = user_hash

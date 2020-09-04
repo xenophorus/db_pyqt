@@ -38,3 +38,18 @@
 2020-09-04 12:55:48,384 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000236AB4B9880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
 		вызванная main
 2020-09-04 12:55:48,385 INFO class_client b'{"action": "auth_info", "time": "Fri Sep  4 12:55:48 2020", "to": "94170129ebe2cfdc2d818802333e213e96fd3fc9", "from_user": "alex", "message": ["127.0.0.1", 56805]}' sent
+2020-09-04 16:24:00,100 INFO logger logging started
+2020-09-04 16:24:00,159 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001EA384F9880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 16:24:00,160 INFO class_client b'{"action": "auth_info", "time": "Fri Sep  4 16:24:00 2020", "to": "94170129ebe2cfdc2d818802333e213e96fd3fc9", "from_user": "alex", "message": ["127.0.0.1", 60803]}' sent
+2020-09-04 16:30:39,650 INFO logger logging started
+2020-09-04 16:30:39,711 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001B3FF4F7880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 16:30:39,711 INFO class_client b'{"action": "auth_info", "time": "Fri Sep  4 16:30:39 2020", "to": "94170129ebe2cfdc2d818802333e213e96fd3fc9", "from_user": "alex", "message": ["127.0.0.1", 60956]}' sent
+2020-09-04 16:45:24,979 INFO logger logging started
+2020-09-04 16:45:25,036 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000024B69117880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 16:45:25,036 INFO class_client b'{"action": "auth_info", "time": "Fri Sep  4 16:45:25 2020", "to": "94170129ebe2cfdc2d818802333e213e96fd3fc9", "from_user": "alex", "message": ["127.0.0.1", 61287]}' sent
+2020-09-04 16:45:44,543 INFO class_client b'{"action": "message", "time": "Fri Sep  4 16:45:40 2020", "to": "all", "from_user": "alex", "message": "123123123"}' sent
+2020-09-04 16:45:54,111 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
