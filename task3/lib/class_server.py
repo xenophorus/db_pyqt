@@ -28,7 +28,7 @@ class Server(metaclass=ServerMetaClass):
                 data = sock.recv(1024)
                 responses[sock] = data.decode('utf-8')
 
-                print(responses)
+                print('responses: ', responses)
                 log.debug(f'data = {responses[sock]}')
             except Exception as e:
                 log.error(f'Клиент {sock.fileno()} {sock.getpeername()} отключился\n\t\t{e}')
@@ -52,9 +52,19 @@ class Server(metaclass=ServerMetaClass):
     def auth_request(self, conn):
         msg = Message()
         msg.create_info('auth_request', '', '', '')
-        msg.encode()
-        conn.send(msg)
+        conn.send(msg.encode())
         print("addr: ", conn)
+
+    def auth(self, sock):
+        data = sock.recv(1024)
+        msg = Message()
+        msg.decode(data)
+        print('resp = ', msg)
+        if msg.action == 'auth_info':
+            name = msg.from_user
+            uid = msg.to_user
+            uip = msg.message[0]
+            db_user_add((name, uid, uip, True,))
 
     @log_dec
     def mainloop(self):
@@ -71,11 +81,12 @@ class Server(metaclass=ServerMetaClass):
                 print("Получен запрос на соединение с %s" % str(addr))
                 log.info(f'Получен запрос на соединение с {str(addr)}')
                 self.auth_request(conn)
+                self.auth(conn)
 
                 self.clients.append(conn)
                 print(self.clients)
             finally:
-                wait = 20
+                wait = 1.0
                 r = []
                 w = []
                 try:

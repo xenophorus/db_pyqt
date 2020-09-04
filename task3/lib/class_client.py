@@ -1,6 +1,5 @@
 import sys
 from socket import SOCK_STREAM, AF_INET, socket
-from threading import Thread
 
 from lib.logger import log
 from lib.decorators import log_dec
@@ -13,6 +12,7 @@ class Client:
     host = HostVerifier()
     port = PortVerifier()
 
+    @log_dec
     def __init__(self, host, port, name, hex_id):
         self.host = host
         self.port = port
@@ -39,17 +39,6 @@ class Client:
                 message.create('message', self.name)
                 self.sender(message.encode())
 
-    def get_loop(self):
-        while True:
-            try:
-                data = self.sock.recv(1024)
-                msg = Message()
-                msg.decode(data)
-                if msg.to_user == self.name or msg.to_user == 'all':
-                    print(f'\t{msg.from_user} said to {msg.to_user} at {msg.time_date}:\n{msg.message}')
-            except OSError as e:
-                self.crit_log(e)
-
     def sender(self, msg):
         try:
             self.sock.send(msg)
@@ -57,7 +46,7 @@ class Client:
         except OSError as e:
             self.crit_log(e)
 
-    def get_message(self):
+    def get_loop(self):
         try:
             data = self.sock.recv(1024)
             msg = Message()
@@ -65,19 +54,13 @@ class Client:
             if msg.action == 'auth_request':
                 m = Message()
                 m.create_info('auth_info', self.name, self.hex_id, self.sock.getsockname())
-
+                self.sender(m.encode())
+                print('auth sent')
             if msg.action == 'message':
                 print(f'{msg.from_user} at {msg.time_date} said to {msg.to_user}:\n\t{msg.message}')
         except OSError as e:
             self.crit_log(e)
 
-    @staticmethod
-    def crit_log(err):
+    def crit_log(self, err):
         log.critical(f'Something wrong. No answer from server.\n\t\t{err}')
         sys.exit()
-
-    @log_dec
-    def mainloop(self):
-        thr1 = Thread(target=self.get_loop)
-        thr1.start()
-        self.send_loop()

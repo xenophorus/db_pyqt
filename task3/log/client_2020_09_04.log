@@ -1,0 +1,40 @@
+2020-09-04 11:01:31,025 INFO logger logging started
+2020-09-04 11:13:26,886 INFO logger logging started
+2020-09-04 11:13:26,945 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000020472D9A880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 11:13:44,006 INFO class_client b'{"action": "message", "time": "Fri Sep  4 11:13:40 2020", "to": "all", "from_user": "alex", "message": "asdasdasd"}' sent
+2020-09-04 11:40:54,620 INFO logger logging started
+2020-09-04 11:58:37,670 INFO logger logging started
+2020-09-04 11:58:37,731 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000024E3DAFA880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 11:59:04,296 INFO class_client b'{"action": "message", "time": "Fri Sep  4 11:59:00 2020", "to": "all", "from_user": "alex", "message": "asdasd"}' sent
+2020-09-04 12:02:27,043 INFO logger logging started
+2020-09-04 12:02:27,104 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001F65EA6A880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:03:05,435 INFO class_client b'{"action": "message", "time": "Fri Sep  4 12:03:01 2020", "to": "all", "from_user": "alex", "message": "asdasd"}' sent
+2020-09-04 12:12:06,761 INFO logger logging started
+2020-09-04 12:12:06,970 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000014316A34FD0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:17:47,222 INFO logger logging started
+2020-09-04 12:17:47,281 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001AB7F1A98B0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:18:05,012 INFO class_client b'{"action": "message", "time": "Fri Sep  4 12:18:00 2020", "to": "asd", "from_user": "alex", "message": "asdasd"}' sent
+2020-09-04 12:18:14,092 INFO class_client b'{"action": "message", "time": "Fri Sep  4 12:18:10 2020", "to": "asad", "from_user": "alex", "message": "asdasdasd"}' sent
+2020-09-04 12:28:25,307 INFO logger logging started
+2020-09-04 12:28:25,368 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000021824C878B0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:28:58,344 INFO class_client b'{"action": "message", "time": "Fri Sep  4 12:28:54 2020", "to": "asdasd", "from_user": "alex", "message": "asdasdasdasdasdasd"}' sent
+2020-09-04 12:33:51,560 INFO logger logging started
+2020-09-04 12:33:51,619 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002EEC5C278B0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:34:00,726 INFO class_client b'{"action": "message", "time": "Fri Sep  4 12:33:57 2020", "to": "asdasd", "from_user": "alex", "message": "asdasdasdasd"}' sent
+2020-09-04 12:51:04,245 INFO logger logging started
+2020-09-04 12:51:04,302 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000224D34E78B0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:52:54,326 INFO logger logging started
+2020-09-04 12:52:54,386 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000028AEC7598B0>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:55:48,320 INFO logger logging started
+2020-09-04 12:55:48,384 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000236AB4B9880>, '127.0.0.1', 9090, 'alex', '94170129ebe2cfdc2d818802333e213e96fd3fc9'), {})
+		вызванная main
+2020-09-04 12:55:48,385 INFO class_client b'{"action": "auth_info", "time": "Fri Sep  4 12:55:48 2020", "to": "94170129ebe2cfdc2d818802333e213e96fd3fc9", "from_user": "alex", "message": ["127.0.0.1", 56805]}' sent
