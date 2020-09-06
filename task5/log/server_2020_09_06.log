@@ -1,0 +1,350 @@
+2020-09-06 00:30:45,448 INFO logger logging started
+2020-09-06 00:30:50,449 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57153)
+2020-09-06 00:30:50,449 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 00:30:50 2020", "to": "2d29f80fe5ed5e275a4620009a4ca139819ff055", "from_user": "Miller", "message": ["127.0.0.1", 57153]}
+2020-09-06 00:31:03,383 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:30:58 2020", "to": "all", "from_user": "Miller", "message": "asdasdasd"}
+2020-09-06 00:31:47,774 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:31:41 2020", "to": "Miller", "from_user": "Miller", "message": "asdasdasdasdasd"}
+2020-09-06 00:43:12,495 INFO logger logging started
+2020-09-06 00:43:19,845 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57240)
+2020-09-06 00:43:19,846 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 00:43:19 2020", "to": "ab021d6f85af8e4eb59be403ba11a478d2acdc98", "from_user": "Tadeo", "message": ["127.0.0.1", 57240]}
+2020-09-06 00:43:30,647 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:43:23 2020", "to": "aasd", "from_user": "Tadeo", "message": "asdasdasdasd"}
+2020-09-06 00:43:39,588 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:43:35 2020", "to": "asdasd", "from_user": "Tadeo", "message": "asdasdasdasdasdasdasd"}
+2020-09-06 00:50:29,448 INFO logger logging started
+2020-09-06 00:50:35,709 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57316)
+2020-09-06 00:50:35,709 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 00:50:35 2020", "to": "d15b1187c5abbb3c1d4ceed34565c7ecc78e046f", "from_user": "Kendall", "message": ["127.0.0.1", 57316]}
+2020-09-06 00:51:01,677 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:50:55 2020", "to": "all", "from_user": "Kendall", "message": "asdasdasdasdasd"}
+2020-09-06 00:53:41,818 INFO logger logging started
+2020-09-06 00:53:48,412 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57334)
+2020-09-06 00:53:48,412 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 00:53:48 2020", "to": "1f3cb10a10f829e3e168a2e29b8e3a3dbf66cea5", "from_user": "Valentin", "message": ["127.0.0.1", 57334]}
+2020-09-06 00:54:12,811 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:54:05 2020", "to": "asdasd", "from_user": "Valentin", "message": "asdasdasdasdasdasd"}
+2020-09-06 00:57:04,487 INFO logger logging started
+2020-09-06 00:57:10,321 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57349)
+2020-09-06 00:57:10,321 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 00:57:10 2020", "to": "9e5d96e3b392107748757d0ab6f749b29ee193e0", "from_user": "Dana", "message": ["127.0.0.1", 57349]}
+2020-09-06 00:57:30,338 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:57:26 2020", "to": "asd", "from_user": "Dana", "message": "asdasd"}
+2020-09-06 00:57:43,152 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 00:57:36 2020", "to": "Dana", "from_user": "Dana", "message": "asdasdadsasdasd"}
+2020-09-06 01:26:19,048 INFO logger logging started
+2020-09-06 01:26:23,558 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57649)
+2020-09-06 01:26:23,558 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:26:23 2020", "to": "71a32f6914314319afb524c0c581ea4098ee69dc", "from_user": "Ailani", "message": ["127.0.0.1", 57649]}
+2020-09-06 01:30:29,615 INFO logger logging started
+2020-09-06 01:30:32,449 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57682)
+2020-09-06 01:30:32,450 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:30:32 2020", "to": "689649423d184d991b5ce01160b1428469554243", "from_user": "Jolie", "message": ["127.0.0.1", 57682]}
+2020-09-06 01:35:12,285 INFO logger logging started
+2020-09-06 01:35:17,177 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57738)
+2020-09-06 01:35:17,177 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:35:17 2020", "to": "8d9af07c30896b1b74907dbdd1a606e9df107acc", "from_user": "Brayden", "message": ["127.0.0.1", 57738]}
+2020-09-06 01:36:01,738 INFO logger logging started
+2020-09-06 01:36:05,579 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57742)
+2020-09-06 01:36:05,579 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:36:05 2020", "to": "cb6648e615cf0ee9d59255a1f8332545e04bd106", "from_user": "Parker", "message": ["127.0.0.1", 57742]}
+2020-09-06 01:36:57,885 INFO logger logging started
+2020-09-06 01:37:02,713 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57746)
+2020-09-06 01:37:02,714 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:37:02 2020", "to": "a709e0d387fa6b6fdca9700967b606905c08df50", "from_user": "Clay", "message": ["127.0.0.1", 57746]}
+2020-09-06 01:38:05,314 INFO logger logging started
+2020-09-06 01:38:10,015 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57763)
+2020-09-06 01:38:10,015 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 01:38:10 2020", "to": "12325ffe0fa5e9d1a6a742d149dbbb92553c31b5", "from_user": "Ray", "message": ["127.0.0.1", 57763]}
+2020-09-06 01:38:20,863 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:38:14 2020", "to": "alex", "from_user": "Ray", "message": "123123123123123"}
+2020-09-06 01:39:52,202 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:38:33 2020", "to": "m", "from_user": "Ray", "message": ""}
+2020-09-06 01:39:59,975 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:39:54 2020", "to": "Ray", "from_user": "Ray", "message": "asdasdasdasd"}
+2020-09-06 01:46:48,905 INFO logger logging started
+2020-09-06 01:46:53,542 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57829)
+2020-09-06 01:47:06,067 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:47:00 2020", "to": "asdasd", "from_user": "Makai", "message": "asdasdasdasdasd"}
+2020-09-06 01:47:20,334 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:47:12 2020", "to": "AS", "from_user": "Makai", "message": "ASDASDASDASDASDASDASsdfsdfsdf"}
+2020-09-06 01:47:35,216 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:47:31 2020", "to": "asd", "from_user": "Makai", "message": "asdasdasdasdasd"}
+2020-09-06 01:54:20,871 INFO logger logging started
+2020-09-06 01:54:25,185 INFO class_server Получен запрос на соединение с ('127.0.0.1', 57896)
+2020-09-06 01:54:32,175 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:54:29 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasd"}
+2020-09-06 01:54:36,316 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:54:33 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasdasd"}
+2020-09-06 01:54:40,798 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:54:38 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasdasdasd"}
+2020-09-06 01:54:54,060 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 01:54:51 2020", "to": "sd", "from_user": "Kinsley", "message": "dfgdfgdfgdfg"}
+2020-09-06 02:13:21,800 INFO logger logging started
+2020-09-06 02:13:22,073 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58099)
+2020-09-06 02:13:22,073 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "095c363560527f69b58ef9c778584055cd39f8c3", "from_user": "Kyleigh", "message": ["127.0.0.1", 58099]}
+2020-09-06 02:13:22,569 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58097)
+2020-09-06 02:13:22,570 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "825379af3adcd1daefbde6000826da43bfe3c7d0", "from_user": "Ariya", "message": ["127.0.0.1", 58097]}
+2020-09-06 02:13:22,573 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58098)
+2020-09-06 02:13:22,574 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "0c41db0a552e84618aba15ede114c190d93602ca", "from_user": "Priscilla", "message": ["127.0.0.1", 58098]}
+2020-09-06 02:13:29,020 INFO logger logging started
+2020-09-06 02:13:29,274 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58102)
+2020-09-06 02:13:29,274 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "09eba279a51751d5f202c896540cbe5c771f6e7c", "from_user": "Ariella", "message": ["127.0.0.1", 58102]}
+2020-09-06 02:13:29,275 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58103)
+2020-09-06 02:13:29,276 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "fac867be476fe8cfdf91823aeead76532b969da8", "from_user": "Mira", "message": ["127.0.0.1", 58103]}
+2020-09-06 02:13:29,286 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58104)
+2020-09-06 02:13:29,288 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "72f7f981f83e6b8cdf115b4871030cac1076ea10", "from_user": "Cain", "message": ["127.0.0.1", 58104]}
+2020-09-06 02:13:32,043 ERROR class_server Клиент 852 ('127.0.0.1', 58103) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:13:32,822 ERROR class_server Клиент 760 ('127.0.0.1', 58102) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:14:06,346 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 02:14:03 2020", "to": "asd", "from_user": "Cain", "message": "asdasdasd"}
+2020-09-06 02:14:12,580 ERROR class_server Клиент 748 ('127.0.0.1', 58104) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:18:09,850 INFO logger logging started
+2020-09-06 02:18:10,586 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58175)
+2020-09-06 02:18:10,586 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:18:10 2020", "to": "711e6c66bf63f12fe7222de712684bd2107d33a1", "from_user": "Josiah", "message": ["127.0.0.1", 58175]}
+2020-09-06 02:18:11,023 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58176)
+2020-09-06 02:18:11,024 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:18:11 2020", "to": "a6aedddc3c1774a7da2027e4af80d85be7896621", "from_user": "Lukas", "message": ["127.0.0.1", 58176]}
+2020-09-06 02:18:12,119 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58177)
+2020-09-06 02:18:12,120 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 02:18:12 2020", "to": "e64408a87b6b068b0a14b671275237ffc0536f9b", "from_user": "Ernesto", "message": ["127.0.0.1", 58177]}
+2020-09-06 02:18:51,801 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 02:18:44 2020", "to": "alex", "from_user": "Lukas", "message": "asdasdasdasd1111111111111111111111111"}
+2020-09-06 02:19:20,705 DEBUG class_server data = {"action": "message", "time": "Sun Sep  6 02:19:12 2020", "to": "asd3", "from_user": "Ernesto", "message": "3333333333333333333333333333333333333333333333"}
+2020-09-06 12:12:54,382 INFO logger logging started
+2020-09-06 12:13:04,402 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58897)
+2020-09-06 12:13:04,402 DEBUG class_server data = {"action": "auth_info", "time": "Sun Sep  6 12:13:04 2020", "to": "558a7ac85338554c5a01c229b71380b591961077", "from_user": "Ulises", "message": ["127.0.0.1", 58897]}
+2020-09-06 12:17:25,336 INFO logger logging started
+2020-09-06 12:17:30,345 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58904)
+2020-09-06 12:17:30,345 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:17:30 2020', 'to': '64e030126f3a286dd195af07884f95d69256e98f', 'from_user': 'Frankie', 'message': ['127.0.0.1', 58904]}
+2020-09-06 12:27:13,025 INFO logger logging started
+2020-09-06 12:27:18,719 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58932)
+2020-09-06 12:27:18,719 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:27:18 2020', 'to': 'e95a9d885eb45b290ef65537931ff2f4c96c7c60', 'from_user': 'Landen', 'message': ['127.0.0.1', 58932]}
+2020-09-06 12:28:21,556 INFO logger logging started
+2020-09-06 12:28:24,860 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58935)
+2020-09-06 12:28:24,860 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:28:24 2020', 'to': 'a5d0c5550a658a6212f1e3b6e760705c297498b1', 'from_user': 'Quinn', 'message': ['127.0.0.1', 58935]}
+2020-09-06 12:29:40,365 INFO logger logging started
+2020-09-06 12:29:42,972 INFO class_server Получен запрос на соединение с ('127.0.0.1', 58938)
+2020-09-06 12:29:42,972 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:29:42 2020', 'to': '9c60f88c85347ac6aaa6501ae4cca155834a0392', 'from_user': 'Brielle', 'message': ['127.0.0.1', 58938]}
+2020-09-06 12:30:27,448 DEBUG class_server data = {'action': 'message', 'time': 'Sun Sep  6 12:30:24 2020', 'to': 'asdasd', 'from_user': 'Brielle', 'message': 'asdasdasd'}
+2020-09-06 12:30:27,448 ERROR class_server Клиент 764 ('127.0.0.1', 58938) отключился
+		'dict' object has no attribute 'encode'
+2020-09-06 12:43:32,901 INFO logger logging started
+2020-09-06 12:43:49,120 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59041)
+2020-09-06 12:43:49,120 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:43:49 2020', 'to': '45cc1064053f3f566cc715c85ee3e28c56ae032b', 'from_user': 'Jazmine', 'message': ['127.0.0.1', 59041]}
+2020-09-06 12:43:57,189 DEBUG class_server data = {'action': 'message', 'time': 'Sun Sep  6 12:43:52 2020', 'to': 'asdasd', 'from_user': 'Jazmine', 'message': 'asdasdasdasd'}
+2020-09-06 12:43:57,189 ERROR class_server Клиент 944 ('127.0.0.1', 59041) отключился
+		'dict' object has no attribute 'encode'
+2020-09-06 12:45:22,857 INFO logger logging started
+2020-09-06 12:45:25,368 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59071)
+2020-09-06 12:45:25,368 DEBUG class_server data = {'action': 'auth_info', 'time': 'Sun Sep  6 12:45:25 2020', 'to': 'fa01a71251b8d0570be498e47119d743e687f26a', 'from_user': 'Colin', 'message': ['127.0.0.1', 59071]}
+2020-09-06 12:45:32,462 DEBUG class_server data = {'action': 'message', 'time': 'Sun Sep  6 12:45:28 2020', 'to': 'asdasd', 'from_user': 'Colin', 'message': 'asdasdasdasd'}
+2020-09-06 12:45:32,463 ERROR class_server Клиент 800 ('127.0.0.1', 59071) отключился
+		'dict' object has no attribute 'encode'
+2020-09-06 13:20:41,082 INFO logger logging started
+2020-09-06 13:20:45,855 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59343)
+2020-09-06 13:20:45,855 DEBUG class_server data = None
+2020-09-06 13:24:10,051 INFO logger logging started
+2020-09-06 13:24:12,735 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59366)
+2020-09-06 13:24:12,735 DEBUG class_server data = None
+2020-09-06 13:26:55,882 INFO logger logging started
+2020-09-06 13:26:59,304 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59387)
+2020-09-06 13:26:59,305 DEBUG class_server data = None
+2020-09-06 13:27:06,284 DEBUG class_server data = None
+2020-09-06 13:27:25,389 DEBUG class_server data = None
+2020-09-06 13:27:32,134 DEBUG class_server data = None
+2020-09-06 13:32:16,140 INFO logger logging started
+2020-09-06 13:32:18,705 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59420)
+2020-09-06 13:32:18,705 DEBUG class_server data = None
+2020-09-06 13:32:27,516 DEBUG class_server data = None
+2020-09-06 13:34:01,590 INFO logger logging started
+2020-09-06 13:34:05,500 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59444)
+2020-09-06 13:34:05,500 DEBUG class_server data = Message from Kaysen to None,action: auth_info, date: None
+message: ['127.0.0.1', 59444]
+2020-09-06 13:36:25,676 INFO logger logging started
+2020-09-06 13:36:28,815 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59458)
+2020-09-06 13:36:28,815 DEBUG class_server data = Message from Heidi to None,action: auth_info, date: None
+message: ['127.0.0.1', 59458]
+2020-09-06 13:37:14,842 INFO logger logging started
+2020-09-06 13:37:18,059 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59465)
+2020-09-06 13:37:18,059 DEBUG class_server data = Message from Kaylin to None,action: auth_info, date: None
+message: ['127.0.0.1', 59465]
+2020-09-06 13:37:26,811 DEBUG class_server data = Message from Kaylin to None,action: message, date: None
+message: asdasdasdasdasdasdasd
+2020-09-06 13:37:26,811 ERROR class_server Клиент 792 ('127.0.0.1', 59465) отключился
+		not enough values to unpack (expected 2, got 1)
+2020-09-06 13:45:51,366 INFO logger logging started
+2020-09-06 13:45:54,712 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59524)
+2020-09-06 13:45:54,712 DEBUG class_server data = Message from Kynlee to None, action: auth_info, date: None
+ message: ['127.0.0.1', 59524]
+2020-09-06 13:46:05,706 DEBUG class_server data = Message from Kynlee to None, action: message, date: None
+ message: asdasdasdasdasdasdasdasd
+2020-09-06 13:46:05,706 ERROR class_server Клиент 740 ('127.0.0.1', 59524) отключился
+		not enough values to unpack (expected 2, got 1)
+2020-09-06 13:47:14,486 INFO logger logging started
+2020-09-06 13:47:17,093 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59532)
+2020-09-06 13:47:17,093 DEBUG class_server data = Message from Reuben to None, action: auth_info, date: None
+ message: ['127.0.0.1', 59532]
+2020-09-06 13:47:24,170 DEBUG class_server data = Message from Reuben to None, action: message, date: None
+ message: asdasdasdasdasd
+2020-09-06 13:47:24,171 ERROR class_server Клиент 860 ('127.0.0.1', 59532) отключился
+		not enough values to unpack (expected 2, got 1)
+2020-09-06 13:48:35,993 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59542)
+2020-09-06 13:48:35,993 DEBUG class_server data = Message from Bethany to None, action: auth_info, date: None
+ message: ['127.0.0.1', 59542]
+2020-09-06 13:48:36,182 ERROR class_server Клиент 332 ('127.0.0.1', 59542) отключился
+		Expecting value: line 1 column 1 (char 0)
+2020-09-06 13:52:14,035 INFO logger logging started
+2020-09-06 13:52:17,017 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59672)
+2020-09-06 13:52:17,017 DEBUG class_server data = Message from Jolie to None, action: auth_info, date: None
+ message: ['127.0.0.1', 59672]
+2020-09-06 13:52:17,211 ERROR class_server Клиент 652 ('127.0.0.1', 59672) отключился
+		Expecting value: line 1 column 1 (char 0)
+2020-09-06 13:54:41,370 INFO logger logging started
+2020-09-06 13:54:44,256 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59704)
+2020-09-06 13:54:44,256 DEBUG class_server data = Message from Lorenzo to None, action: auth_info, date: None
+ message: ['127.0.0.1', 59704]
+2020-09-06 13:54:59,753 DEBUG class_server data = Message from Lorenzo to None, action: message, date: None
+ message: asdasdasssssssssssssssssssssssssss
+2020-09-06 13:54:59,753 ERROR class_server Клиент 288 ('127.0.0.1', 59704) отключился
+		not enough values to unpack (expected 2, got 1)
+2020-09-06 13:56:26,731 INFO logger logging started
+2020-09-06 13:56:29,008 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59714)
+2020-09-06 13:56:29,008 DEBUG class_server data = Message from Jerome to 96e7cf87a3b8c448f90ec27b8b5e722f2f1074dd, action: auth_info, date: Sun Sep  6 13:56:29 2020
+ message: ['127.0.0.1', 59714]
+2020-09-06 13:56:35,328 DEBUG class_server data = Message from Jerome to asdasdasd, action: message, date: Sun Sep  6 13:56:31 2020
+ message: asddddddddddddddddddddddddddd
+2020-09-06 13:56:35,328 ERROR class_server Клиент 384 ('127.0.0.1', 59714) отключился
+		not enough values to unpack (expected 2, got 1)
+2020-09-06 14:01:42,848 INFO logger logging started
+2020-09-06 14:01:46,220 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59757)
+2020-09-06 14:01:46,221 DEBUG class_server data = Message from Emerson to 2575b182d93234cd38c037740a9081b5a4016ff0, action: auth_info, date: Sun Sep  6 14:01:46 2020
+ message: ['127.0.0.1', 59757]
+2020-09-06 14:01:52,099 DEBUG class_server data = Message from Emerson to asdasd, action: message, date: Sun Sep  6 14:01:48 2020
+ message: asdasdasdasd
+2020-09-06 14:01:58,965 DEBUG class_server data = Message from Emerson to asd, action: message, date: Sun Sep  6 14:01:55 2020
+ message: asdasdasdasdasdasd
+2020-09-06 14:15:28,434 INFO logger logging started
+2020-09-06 14:15:30,713 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59906)
+2020-09-06 14:15:30,823 DEBUG class_server data = Message from Gerardo to e848b7a0ddc73976338a34fe585acd426e73513c, action: auth_info, date: Sun Sep  6 14:15:30 2020
+ message: ['127.0.0.1', 59906]
+2020-09-06 14:16:23,083 INFO logger logging started
+2020-09-06 14:16:26,537 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59909)
+2020-09-06 14:16:26,537 DEBUG class_server data = Message from Jerry to 7cd83679081b1de2710ec1fb11f17958ade1e1b9, action: auth_info, date: Sun Sep  6 14:16:26 2020
+ message: ['127.0.0.1', 59909]
+2020-09-06 14:20:45,436 INFO logger logging started
+2020-09-06 14:20:49,420 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59947)
+2020-09-06 14:20:49,421 DEBUG class_server data = Message from Jimmy to a90dedf4e56bb3364699cce73ee609b772542a34, action: auth_info, date: Sun Sep  6 14:20:49 2020
+ message: ['127.0.0.1', 59947]
+2020-09-06 14:27:31,655 INFO logger logging started
+2020-09-06 14:27:41,296 INFO logger logging started
+2020-09-06 14:27:50,643 INFO class_server Получен запрос на соединение с ('127.0.0.1', 59997)
+2020-09-06 14:27:50,643 DEBUG class_server data = Message from Kyra to 0219c748fb6b4c59904f1159f4989119cbee8a5a, action: auth_info, date: Sun Sep  6 14:27:50 2020
+ message: ['127.0.0.1', 59997]
+2020-09-06 14:28:05,492 DEBUG class_server data = Message from Kyra to asdasd, action: message, date: Sun Sep  6 14:28:01 2020
+ message: asdasdasdasd
+2020-09-06 14:28:20,661 ERROR class_server Клиент 840 ('127.0.0.1', 59997) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:30:15,232 INFO logger logging started
+2020-09-06 14:30:17,656 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60018)
+2020-09-06 14:30:17,656 DEBUG class_server data = Message from Reese to a4ad021822537025b6879ec8e8f0532234d9059a, action: auth_info, date: Sun Sep  6 14:30:17 2020
+ message: ['127.0.0.1', 60018]
+2020-09-06 14:30:21,786 ERROR class_server Клиент 744 ('127.0.0.1', 60018) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:40:16,382 INFO logger logging started
+2020-09-06 14:40:19,527 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60280)
+2020-09-06 14:40:19,527 DEBUG class_server data = Message from Holland to 39a6cdf5402811b2bd019764dbb6f8392d6ca8b5, action: auth_info, date: Sun Sep  6 14:40:19 2020
+ message: ['127.0.0.1', 60280]
+2020-09-06 14:40:31,952 DEBUG class_server data = Message from Holland to asdasd, action: message, date: Sun Sep  6 14:40:28 2020
+ message: asdasdasdasd
+2020-09-06 14:40:36,538 ERROR class_server Клиент 444 ('127.0.0.1', 60280) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:42:36,412 INFO logger logging started
+2020-09-06 14:42:38,952 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60293)
+2020-09-06 14:42:38,953 DEBUG class_server data = Message from Francisco to 7c61fc445143a17cfaa951300340f9f95e41bcca, action: auth_info, date: Sun Sep  6 14:42:38 2020
+ message: ['127.0.0.1', 60293]
+2020-09-06 14:42:45,374 DEBUG class_server data = Message from Francisco to asd, action: message, date: Sun Sep  6 14:42:43 2020
+ message: asdasdasd
+2020-09-06 14:42:49,310 ERROR class_server Клиент 316 ('127.0.0.1', 60293) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:45:17,144 INFO logger logging started
+2020-09-06 14:45:19,915 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60316)
+2020-09-06 14:45:19,915 DEBUG class_server data = Message from Bo to 312a3689c3de7972b02c58af460a76aecca6dc76, action: auth_info, date: Sun Sep  6 14:45:19 2020
+ message: ['127.0.0.1', 60316]
+2020-09-06 14:45:26,021 DEBUG class_server data = Message from Bo to asd, action: message, date: Sun Sep  6 14:45:23 2020
+ message: asdasdasd
+2020-09-06 14:45:31,491 ERROR class_server Клиент 852 ('127.0.0.1', 60316) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:58:15,571 INFO logger logging started
+2020-09-06 14:58:19,515 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60418)
+2020-09-06 14:58:19,516 DEBUG class_server data = Message from Dawson to 512178c5f049e254c6c61e8ca5f22ecd5726aa99, action: auth_info, date: Sun Sep  6 14:58:19 2020
+ message: ['127.0.0.1', 60418]
+2020-09-06 14:58:31,425 DEBUG class_server data = Message from Dawson to asdasd, action: message, date: Sun Sep  6 14:58:26 2020
+ message: asdasdasdasdasd
+2020-09-06 14:58:35,354 INFO class_server Клиент 760 ('127.0.0.1', 60418) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 15:06:29,320 INFO logger logging started
+2020-09-06 15:06:33,218 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60499)
+2020-09-06 15:06:33,218 DEBUG class_server data = Message from Laylah to 90e445f9c06084bb13c7e65eeeeca37613878356, action: auth_info, date: Sun Sep  6 15:06:33 2020
+ message: ['127.0.0.1', 60499]
+2020-09-06 15:18:00,685 INFO logger logging started
+2020-09-06 15:18:05,908 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60621)
+2020-09-06 15:18:05,909 DEBUG class_server data = Message from Taylor to ddb92ed3bd7aba09b075170a4a31eaf26661abf0, action: auth_info, date: Sun Sep  6 15:18:05 2020
+ message: ['127.0.0.1', 60621]
+2020-09-06 15:18:13,806 DEBUG class_server data = Message from Taylor to asd, action: message, date: Sun Sep  6 15:18:12 2020
+ message: asdasd
+2020-09-06 15:18:19,264 INFO class_server Клиент 1000 ('127.0.0.1', 60621) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 15:18:22,885 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60623)
+2020-09-06 15:18:22,886 DEBUG class_server data = Message from Quinton to 682bee0dbf92876d8f50a8ab1ae8d1e69b57b3e1, action: auth_info, date: Sun Sep  6 15:18:22 2020
+ message: ['127.0.0.1', 60623]
+2020-09-06 15:19:11,339 INFO logger logging started
+2020-09-06 15:19:14,422 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60629)
+2020-09-06 15:19:14,423 DEBUG class_server data = Message from Travis to 35a671da915f29be8a8c4c9bdaee8cab6fdf2ff1, action: auth_info, date: Sun Sep  6 15:19:14 2020
+ message: ['127.0.0.1', 60629]
+2020-09-06 15:19:19,751 DEBUG class_server data = Message from Travis to dsf, action: message, date: Sun Sep  6 15:19:17 2020
+ message: sdfsdf
+2020-09-06 15:19:23,248 INFO class_server Клиент 696 ('127.0.0.1', 60629) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 15:22:47,946 INFO logger logging started
+2020-09-06 15:22:50,775 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60663)
+2020-09-06 15:22:50,776 DEBUG class_server data = Message from Cali to b79b4e864266600cbbbcf70cb2b68824a74c0dce, action: auth_info, date: Sun Sep  6 15:22:50 2020
+ message: ['127.0.0.1', 60663]
+2020-09-06 15:22:57,354 DEBUG class_server data = Message from Cali to asd, action: message, date: Sun Sep  6 15:22:54 2020
+ message: asdasdasd
+2020-09-06 15:23:02,469 DEBUG class_server data = Message from Cali to sdf, action: message, date: Sun Sep  6 15:22:59 2020
+ message: sdfsdfsdf
+2020-09-06 15:23:10,116 INFO class_server Клиент 356 ('127.0.0.1', 60663) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 15:29:43,042 INFO logger logging started
+2020-09-06 15:29:58,134 INFO class_server Получен запрос на соединение с ('127.0.0.1', 60723)
+2020-09-06 15:29:58,135 DEBUG class_server data = Message from Sarah to 3bb432926576f83cf05fcb4c1f3bf570c022f686, action: auth_info, date: Sun Sep  6 15:29:58 2020
+ message: ['127.0.0.1', 60723]
+2020-09-06 15:30:11,110 DEBUG class_server data = Message from Sarah to asdasd, action: message, date: Sun Sep  6 15:30:07 2020
+ message: asdasdasdasd
+2020-09-06 15:30:16,988 DEBUG class_server data = Message from Sarah to sdfsdf, action: message, date: Sun Sep  6 15:30:13 2020
+ message: sdfsdfsdfsdfsdfsdf
+2020-09-06 17:39:55,485 INFO logger logging started
+2020-09-06 17:40:45,525 INFO logger logging started
+2020-09-06 17:44:02,164 INFO logger logging started
+2020-09-06 17:44:47,392 INFO logger logging started
+2020-09-06 17:45:50,178 INFO logger logging started
+2020-09-06 17:48:02,760 INFO logger logging started
+2020-09-06 17:48:28,374 INFO logger logging started
+2020-09-06 17:49:35,548 INFO logger logging started
+2020-09-06 17:49:39,449 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62443)
+2020-09-06 17:49:39,449 DEBUG class_server data = Message from Brentley to 74d1923b2dccd5fabf7a48c921faebc38f896c04, action: auth_info, date: Sun Sep  6 17:49:39 2020
+ message: ['127.0.0.1', 62443]
+2020-09-06 17:50:03,111 DEBUG class_server data = Message from Brentley to Brentley, action: message, date: Sun Sep  6 17:49:58 2020
+ message: asdasdasdasdasd
+2020-09-06 17:50:56,798 INFO logger logging started
+2020-09-06 17:50:59,437 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62448)
+2020-09-06 17:50:59,437 DEBUG class_server data = Message from Lorelai to 276e70235d9021b03d5ce8a8dbc7c4ebe321a2fb, action: auth_info, date: Sun Sep  6 17:50:59 2020
+ message: ['127.0.0.1', 62448]
+2020-09-06 17:51:04,678 DEBUG class_server data = Message from Lorelai to asd, action: message, date: Sun Sep  6 17:51:01 2020
+ message: asd
+2020-09-06 17:53:26,585 INFO logger logging started
+2020-09-06 17:53:31,692 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62456)
+2020-09-06 17:53:31,692 DEBUG class_server data = Message from Deshawn to c183a15a2960d12e3307902d171cb4e234dfc4e4, action: auth_info, date: Sun Sep  6 17:53:31 2020
+ message: ['127.0.0.1', 62456]
+2020-09-06 17:53:37,689 DEBUG class_server data = Message from Deshawn to asd, action: message, date: Sun Sep  6 17:53:35 2020
+ message: asdasd
+2020-09-06 18:00:08,315 INFO logger logging started
+2020-09-06 18:00:12,302 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62465)
+2020-09-06 18:00:12,302 DEBUG class_server data = Message from Lewis to dde68d4b1a6a53d493e8dc54d0ae05b3655a96c5, action: auth_info, date: Sun Sep  6 18:00:12 2020
+ message: ['127.0.0.1', 62465]
+2020-09-06 18:00:18,186 DEBUG class_server data = Message from Lewis to asd, action: message, date: Sun Sep  6 18:00:15 2020
+ message: asd
+2020-09-06 18:14:41,074 INFO logger logging started
+2020-09-06 18:14:44,645 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62514)
+2020-09-06 18:14:44,645 DEBUG class_server data = Message from Mackenzie to b2640a52bbc92fbc4fd3e406144ae7855ebe98a5, action: auth_info, date: Sun Sep  6 18:14:44 2020
+ message: ['127.0.0.1', 62514]
+2020-09-06 18:14:52,928 DEBUG class_server data = Message from Mackenzie to asd, action: message, date: Sun Sep  6 18:14:51 2020
+ message: asd
+2020-09-06 18:17:19,444 INFO logger logging started
+2020-09-06 18:17:22,313 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62522)
+2020-09-06 18:17:22,314 DEBUG class_server data = Message from Monroe to f77f9e6e88876926f0a371d55df72a7ed0001efe, action: auth_info, date: Sun Sep  6 18:17:22 2020
+ message: ['127.0.0.1', 62522]
+2020-09-06 18:17:30,486 DEBUG class_server data = Message from Monroe to asd, action: message, date: Sun Sep  6 18:17:28 2020
+ message: asdasd
+2020-09-06 18:17:45,445 DEBUG class_server data = Message from Monroe to all, action: message, date: Sun Sep  6 18:17:40 2020
+ message: adasdasdasd
+2020-09-06 18:17:58,331 DEBUG class_server data = Message from Monroe to Monroe, action: message, date: Sun Sep  6 18:17:50 2020
+ message: sdfsdfsdfsdfsdf
+2020-09-06 18:23:36,360 INFO class_server Клиент 296 ('127.0.0.1', 62522) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 18:23:43,462 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62567)
+2020-09-06 18:23:43,462 DEBUG class_server data = Message from Alberto to b50bc6b1fee83addb66d43165ec57bdb58e3e8fa, action: auth_info, date: Sun Sep  6 18:23:43 2020
+ message: ['127.0.0.1', 62567]
