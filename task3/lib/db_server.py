@@ -1,25 +1,24 @@
 import os
+from _datetime import datetime
 
-from sqlalchemy import Column, Integer, String, Boolean, create_engine, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Boolean, create_engine, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
 path = os.getcwd()
 
-print(path)
-
-engine = create_engine(f'sqlite:///{path}/db/server.sql', echo=True, pool_recycle=7200)
+engine = create_engine(f'sqlite:///{path}/db/db_server.sql', echo=False, pool_recycle=7200)
 
 Base = declarative_base()
 
 
 # TODO Relationships between tables; https://docs.sqlalchemy.org/en/13/orm/tutorial.html
 
-class Users:
+class Users(Base):
     __tablename__ = 'all_users'
     id = Column(Integer, primary_key=True, nullable=False)
-    username = Column(String(50), unique=True, nullable=False)
-    user_hash = Column(String(100), unique=True, nullable=False)
+    username = Column(String(50))
+    user_hash = Column(String(100))
     ip = Column(String(50))
     is_active = Column(Boolean)
 
@@ -32,14 +31,14 @@ class Users:
         self.is_active = is_active
 
 
-class UsersLog:
+class UsersLog(Base):
     __tablename__ = 'users_log'
     id = Column(Integer, primary_key=True)
     user_hash = Column(String(100), ForeignKey('all_users.user_hash'))
-    time_conn = Column(DateTime)
-    time_exit = Column(DateTime)
+    time_conn = Column(String(30))
+    time_exit = Column(String(30))
 
-    all_users = relationship('Users', backref='users_log', order_by='Users.id')
+    # all_users = relationship('Users', backref='users_log', order_by='Users.id')
 
     def __init__(self, user_hash, time_conn, time_exit):
         self.user_hash = user_hash
@@ -54,20 +53,44 @@ session = Session()
 
 
 def db_user_add(user):
-    name, user_hash, ip, is_active = user
-    session.add(Users(name, user_hash, ip, is_active))
+    name, u_id, u_ip, is_active = user
+    a = Users(name, u_id, u_ip, is_active)
+    b = UsersLog(u_id, datetime.today().isoformat(), '')
+    session.add(a)
+    session.add(b)
     session.commit()
 
 
-def db_change_user_activity(user_hash):
-    session.query(Users).filter(Users.id == user_hash).update({'is_active': False})
+def db_change_user_activity(ip):
+    session.query(Users).filter(Users.ip == ip).update({'is_active': False})
     session.commit()
 
 
-def db_user_delete(user_hash):
-    session.query(Users).filter(Users.id == user_hash).delete()
+def db_user_delete(username):
+    session.query(Users).filter(Users.id == username).delete()
     session.commit()
 
 
-def db_active_user():
-    session.query(Users).filter(Users.is_active == True)
+def db_active_users():
+    userlist = session.query(Users).filter(Users.is_active == True).filter(Users.username)
+    return userlist
+
+
+def db_user_in(name):
+    for n in session.query(Users).filter(Users.username):
+        if n == name:
+            return True
+        else:
+            return False
+
+
+def db_user_ip(name):
+    try:
+        a = session.query(Users).filter(Users.username == name).first()
+        return a.ip
+    except AttributeError:
+        return None
+
+
+# z = db_user_ip('Sarah')
+# print(z)

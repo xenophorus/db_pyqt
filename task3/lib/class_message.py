@@ -11,8 +11,8 @@ class Message:
         self.message = ''
 
     def __repr__(self):
-        return f'Message from {self.from_user} to {self.to_user},' \
-               f'action: {self.action}, date: {self.time_date}\n' \
+        return f'Message from {self.from_user} to {self.to_user}, ' \
+               f'action: {self.action}, date: {self.time_date}\n ' \
                f'message: {self.message}'
 
     @staticmethod
@@ -20,7 +20,7 @@ class Message:
         if command == 'dec':
             return json.loads(msg.decode('utf-8'))
         if command == 'enc':
-            return json.dumps(msg.to_dict()).encode('utf-8')
+            return json.dumps(msg.__dict__()).encode('utf-8')
 
     def set_to(self):
         self.to_user = input('Введите имя: \n')
@@ -34,8 +34,6 @@ class Message:
         self.from_user = from_user
         self.to_user = to_user
         self.message = msg
-        return dict(action=self.action, time=self.time_date, to=self.to_user,
-                    from_user=self.from_user, message=self.message)
 
     def create(self, action, from_user):
         self.action = action
@@ -43,17 +41,17 @@ class Message:
         self.from_user = from_user
         self.set_to()
         self._set_msg()
-        return dict(action=self.action, time=self.time_date, to=self.to_user,
-                    from_user=self.from_user, message=self.message)
 
     def decode(self, data):
         d_data = self._jsoncode(data, 'dec')
         self.action = d_data.get('action')
-        self.time_date = d_data.get('time')
-        self.to_user = d_data.get('to')
+        self.time_date = d_data.get('time_date')
+        self.to_user = d_data.get('to_user')
         self.from_user = d_data.get('from_user')
         self.message = d_data.get('message')
-        return dict(action=self.action, time=self.time_date, to=self.to_user,
+
+    def __dict__(self):
+        return dict(action=self.action, time_date=self.time_date, to_user=self.to_user,
                     from_user=self.from_user, message=self.message)
 
     def encode(self):
@@ -64,7 +62,3 @@ class Message:
 
     def message_str(self):
         return self.message
-
-    def to_dict(self):
-        return dict(action=self.action, time=self.time_date, to=self.to_user,
-                    from_user=self.from_user, message=self.message)

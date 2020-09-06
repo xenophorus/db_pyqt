@@ -1,0 +1,373 @@
+2020-09-06 00:30:50,211 INFO logger logging started
+2020-09-06 00:30:50,448 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 00:30:50 2020", "to": "2d29f80fe5ed5e275a4620009a4ca139819ff055", "from_user": "Miller", "message": ["127.0.0.1", 57153]}' sent
+2020-09-06 00:30:50,562 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001B76B5FC7C0>, '127.0.0.1', 9090, 'Miller', '2d29f80fe5ed5e275a4620009a4ca139819ff055'), {})
+		вызванная main
+2020-09-06 00:31:03,378 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:30:58 2020", "to": "all", "from_user": "Miller", "message": "asdasdasd"}' sent
+2020-09-06 00:31:47,731 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:31:41 2020", "to": "Miller", "from_user": "Miller", "message": "asdasdasdasdasd"}' sent
+2020-09-06 00:43:19,587 INFO logger logging started
+2020-09-06 00:43:19,845 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 00:43:19 2020", "to": "ab021d6f85af8e4eb59be403ba11a478d2acdc98", "from_user": "Tadeo", "message": ["127.0.0.1", 57240]}' sent
+2020-09-06 00:43:19,974 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001A20234C7C0>, '127.0.0.1', 9090, 'Tadeo', 'ab021d6f85af8e4eb59be403ba11a478d2acdc98'), {})
+		вызванная main
+2020-09-06 00:43:30,572 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:43:23 2020", "to": "aasd", "from_user": "Tadeo", "message": "asdasdasdasd"}' sent
+2020-09-06 00:43:39,570 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:43:35 2020", "to": "asdasd", "from_user": "Tadeo", "message": "asdasdasdasdasdasdasd"}' sent
+2020-09-06 00:50:35,461 INFO logger logging started
+2020-09-06 00:50:35,709 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 00:50:35 2020", "to": "d15b1187c5abbb3c1d4ceed34565c7ecc78e046f", "from_user": "Kendall", "message": ["127.0.0.1", 57316]}' sent
+2020-09-06 00:50:35,827 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000027A69DAC7C0>, '127.0.0.1', 9090, 'Kendall', 'd15b1187c5abbb3c1d4ceed34565c7ecc78e046f'), {})
+		вызванная main
+2020-09-06 00:51:01,643 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:50:55 2020", "to": "all", "from_user": "Kendall", "message": "asdasdasdasdasd"}' sent
+2020-09-06 00:53:48,191 INFO logger logging started
+2020-09-06 00:53:48,412 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 00:53:48 2020", "to": "1f3cb10a10f829e3e168a2e29b8e3a3dbf66cea5", "from_user": "Valentin", "message": ["127.0.0.1", 57334]}' sent
+2020-09-06 00:53:48,525 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000020088BCC7C0>, '127.0.0.1', 9090, 'Valentin', '1f3cb10a10f829e3e168a2e29b8e3a3dbf66cea5'), {})
+		вызванная main
+2020-09-06 00:54:12,748 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:54:05 2020", "to": "asdasd", "from_user": "Valentin", "message": "asdasdasdasdasdasd"}' sent
+2020-09-06 00:57:10,095 INFO logger logging started
+2020-09-06 00:57:10,321 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 00:57:10 2020", "to": "9e5d96e3b392107748757d0ab6f749b29ee193e0", "from_user": "Dana", "message": ["127.0.0.1", 57349]}' sent
+2020-09-06 00:57:10,437 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001D1621EC7C0>, '127.0.0.1', 9090, 'Dana', '9e5d96e3b392107748757d0ab6f749b29ee193e0'), {})
+		вызванная main
+2020-09-06 00:57:30,275 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:57:26 2020", "to": "asd", "from_user": "Dana", "message": "asdasd"}' sent
+2020-09-06 00:57:43,100 INFO class_client b'{"action": "message", "time": "Sun Sep  6 00:57:36 2020", "to": "Dana", "from_user": "Dana", "message": "asdasdadsasdasd"}' sent
+2020-09-06 01:26:23,345 INFO logger logging started
+2020-09-06 01:26:23,557 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:26:23 2020", "to": "71a32f6914314319afb524c0c581ea4098ee69dc", "from_user": "Ailani", "message": ["127.0.0.1", 57649]}' sent
+2020-09-06 01:26:23,664 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000251CAD5C7C0>, '127.0.0.1', 9090, 'Ailani', '71a32f6914314319afb524c0c581ea4098ee69dc'), {})
+		вызванная main
+2020-09-06 01:30:32,225 INFO logger logging started
+2020-09-06 01:30:32,449 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:30:32 2020", "to": "689649423d184d991b5ce01160b1428469554243", "from_user": "Jolie", "message": ["127.0.0.1", 57682]}' sent
+2020-09-06 01:30:32,561 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000025D1EACC7C0>, '127.0.0.1', 9090, 'Jolie', '689649423d184d991b5ce01160b1428469554243'), {})
+		вызванная main
+2020-09-06 01:35:16,957 INFO logger logging started
+2020-09-06 01:35:17,177 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:35:17 2020", "to": "8d9af07c30896b1b74907dbdd1a606e9df107acc", "from_user": "Brayden", "message": ["127.0.0.1", 57738]}' sent
+2020-09-06 01:35:17,289 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001FA9FA3C7C0>, '127.0.0.1', 9090, 'Brayden', '8d9af07c30896b1b74907dbdd1a606e9df107acc'), {})
+		вызванная main
+2020-09-06 01:36:05,328 INFO logger logging started
+2020-09-06 01:36:05,578 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:36:05 2020", "to": "cb6648e615cf0ee9d59255a1f8332545e04bd106", "from_user": "Parker", "message": ["127.0.0.1", 57742]}' sent
+2020-09-06 01:36:05,691 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000020BB51AC7C0>, '127.0.0.1', 9090, 'Parker', 'cb6648e615cf0ee9d59255a1f8332545e04bd106'), {})
+		вызванная main
+2020-09-06 01:37:02,491 INFO logger logging started
+2020-09-06 01:37:02,713 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:37:02 2020", "to": "a709e0d387fa6b6fdca9700967b606905c08df50", "from_user": "Clay", "message": ["127.0.0.1", 57746]}' sent
+2020-09-06 01:37:02,831 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000024AA593C7C0>, '127.0.0.1', 9090, 'Clay', 'a709e0d387fa6b6fdca9700967b606905c08df50'), {})
+		вызванная main
+2020-09-06 01:38:09,795 INFO logger logging started
+2020-09-06 01:38:10,015 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 01:38:10 2020", "to": "12325ffe0fa5e9d1a6a742d149dbbb92553c31b5", "from_user": "Ray", "message": ["127.0.0.1", 57763]}' sent
+2020-09-06 01:38:10,125 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000265BB30C7C0>, '127.0.0.1', 9090, 'Ray', '12325ffe0fa5e9d1a6a742d149dbbb92553c31b5'), {})
+		вызванная main
+2020-09-06 01:38:20,782 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:38:14 2020", "to": "alex", "from_user": "Ray", "message": "123123123123123"}' sent
+2020-09-06 01:39:52,094 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:38:33 2020", "to": "m", "from_user": "Ray", "message": ""}' sent
+2020-09-06 01:39:59,933 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:39:54 2020", "to": "Ray", "from_user": "Ray", "message": "asdasdasdasd"}' sent
+2020-09-06 01:46:53,325 INFO logger logging started
+2020-09-06 01:46:53,649 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002A060A4C7C0>, '127.0.0.1', 9090, 'Makai', 'b194f8b07b718c19e322a6c92325ac6f8b13668b'), {})
+		вызванная main
+2020-09-06 01:47:05,967 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:47:00 2020", "to": "asdasd", "from_user": "Makai", "message": "asdasdasdasdasd"}' sent
+2020-09-06 01:47:20,246 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:47:12 2020", "to": "AS", "from_user": "Makai", "message": "ASDASDASDASDASDASDASsdfsdfsdf"}' sent
+2020-09-06 01:47:35,126 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:47:31 2020", "to": "asd", "from_user": "Makai", "message": "asdasdasdasdasd"}' sent
+2020-09-06 01:54:24,974 INFO logger logging started
+2020-09-06 01:54:25,295 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000212639BC7C0>, '127.0.0.1', 9090, 'Kinsley', '557809390c543a8795994ef28a165e9a5d06b766'), {})
+		вызванная main
+2020-09-06 01:54:32,098 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:54:29 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasd"}' sent
+2020-09-06 01:54:36,303 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:54:33 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasdasd"}' sent
+2020-09-06 01:54:40,711 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:54:38 2020", "to": "asd", "from_user": "Kinsley", "message": "asdasdasdasd"}' sent
+2020-09-06 01:54:54,031 INFO class_client b'{"action": "message", "time": "Sun Sep  6 01:54:51 2020", "to": "sd", "from_user": "Kinsley", "message": "dfgdfgdfgdfg"}' sent
+2020-09-06 02:13:21,798 INFO logger logging started
+2020-09-06 02:13:21,799 INFO logger logging started
+2020-09-06 02:13:21,830 INFO logger logging started
+2020-09-06 02:13:22,073 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "095c363560527f69b58ef9c778584055cd39f8c3", "from_user": "Kyleigh", "message": ["127.0.0.1", 58099]}' sent
+2020-09-06 02:13:22,184 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000021B2CFBC4F0>, '127.0.0.1', 9090, 'Kyleigh', '095c363560527f69b58ef9c778584055cd39f8c3'), {})
+		вызванная main
+2020-09-06 02:13:22,569 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "825379af3adcd1daefbde6000826da43bfe3c7d0", "from_user": "Ariya", "message": ["127.0.0.1", 58097]}' sent
+2020-09-06 02:13:22,569 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:22 2020", "to": "0c41db0a552e84618aba15ede114c190d93602ca", "from_user": "Priscilla", "message": ["127.0.0.1", 58098]}' sent
+2020-09-06 02:13:22,693 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001ACBDE9C4F0>, '127.0.0.1', 9090, 'Priscilla', '0c41db0a552e84618aba15ede114c190d93602ca'), {})
+		вызванная main
+2020-09-06 02:13:22,694 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001675CECC4F0>, '127.0.0.1', 9090, 'Ariya', '825379af3adcd1daefbde6000826da43bfe3c7d0'), {})
+		вызванная main
+2020-09-06 02:13:26,452 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:13:26,453 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:13:29,038 INFO logger logging started
+2020-09-06 02:13:29,040 INFO logger logging started
+2020-09-06 02:13:29,043 INFO logger logging started
+2020-09-06 02:13:29,274 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "09eba279a51751d5f202c896540cbe5c771f6e7c", "from_user": "Ariella", "message": ["127.0.0.1", 58102]}' sent
+2020-09-06 02:13:29,275 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "fac867be476fe8cfdf91823aeead76532b969da8", "from_user": "Mira", "message": ["127.0.0.1", 58103]}' sent
+2020-09-06 02:13:29,276 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:13:29 2020", "to": "72f7f981f83e6b8cdf115b4871030cac1076ea10", "from_user": "Cain", "message": ["127.0.0.1", 58104]}' sent
+2020-09-06 02:13:29,404 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002229A0AC4F0>, '127.0.0.1', 9090, 'Ariella', '09eba279a51751d5f202c896540cbe5c771f6e7c'), {})
+		вызванная main
+2020-09-06 02:13:29,408 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000150BC3BC4F0>, '127.0.0.1', 9090, 'Mira', 'fac867be476fe8cfdf91823aeead76532b969da8'), {})
+		вызванная main
+2020-09-06 02:13:29,409 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000020802DFC4F0>, '127.0.0.1', 9090, 'Cain', '72f7f981f83e6b8cdf115b4871030cac1076ea10'), {})
+		вызванная main
+2020-09-06 02:13:58,413 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 02:14:06,333 INFO class_client b'{"action": "message", "time": "Sun Sep  6 02:14:03 2020", "to": "asd", "from_user": "Cain", "message": "asdasdasd"}' sent
+2020-09-06 02:18:09,852 INFO logger logging started
+2020-09-06 02:18:10,586 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:18:10 2020", "to": "711e6c66bf63f12fe7222de712684bd2107d33a1", "from_user": "Josiah", "message": ["127.0.0.1", 58175]}' sent
+2020-09-06 02:18:10,702 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000269FFDEC4F0>, '127.0.0.1', 9090, 'Josiah', '711e6c66bf63f12fe7222de712684bd2107d33a1'), {})
+		вызванная main
+2020-09-06 02:18:10,808 INFO logger logging started
+2020-09-06 02:18:11,023 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:18:11 2020", "to": "a6aedddc3c1774a7da2027e4af80d85be7896621", "from_user": "Lukas", "message": ["127.0.0.1", 58176]}' sent
+2020-09-06 02:18:11,138 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000021855B9C4F0>, '127.0.0.1', 9090, 'Lukas', 'a6aedddc3c1774a7da2027e4af80d85be7896621'), {})
+		вызванная main
+2020-09-06 02:18:11,891 INFO logger logging started
+2020-09-06 02:18:12,119 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 02:18:12 2020", "to": "e64408a87b6b068b0a14b671275237ffc0536f9b", "from_user": "Ernesto", "message": ["127.0.0.1", 58177]}' sent
+2020-09-06 02:18:12,227 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000022A0954C4F0>, '127.0.0.1', 9090, 'Ernesto', 'e64408a87b6b068b0a14b671275237ffc0536f9b'), {})
+		вызванная main
+2020-09-06 02:18:51,791 INFO class_client b'{"action": "message", "time": "Sun Sep  6 02:18:44 2020", "to": "alex", "from_user": "Lukas", "message": "asdasdasdasd1111111111111111111111111"}' sent
+2020-09-06 02:19:20,645 INFO class_client b'{"action": "message", "time": "Sun Sep  6 02:19:12 2020", "to": "asd3", "from_user": "Ernesto", "message": "3333333333333333333333333333333333333333333333"}' sent
+2020-09-06 02:20:32,348 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 12:13:04,163 INFO logger logging started
+2020-09-06 12:13:04,402 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:13:04 2020", "to": "558a7ac85338554c5a01c229b71380b591961077", "from_user": "Ulises", "message": ["127.0.0.1", 58897]}' sent
+2020-09-06 12:13:04,516 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001467F2DC7C0>, '127.0.0.1', 9090, 'Ulises', '558a7ac85338554c5a01c229b71380b591961077'), {})
+		вызванная main
+2020-09-06 12:17:30,139 INFO logger logging started
+2020-09-06 12:17:30,345 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:17:30 2020", "to": "64e030126f3a286dd195af07884f95d69256e98f", "from_user": "Frankie", "message": ["127.0.0.1", 58904]}' sent
+2020-09-06 12:17:30,466 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001EE2C8BC7C0>, '127.0.0.1', 9090, 'Frankie', '64e030126f3a286dd195af07884f95d69256e98f'), {})
+		вызванная main
+2020-09-06 12:27:18,520 INFO logger logging started
+2020-09-06 12:27:18,719 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:27:18 2020", "to": "e95a9d885eb45b290ef65537931ff2f4c96c7c60", "from_user": "Landen", "message": ["127.0.0.1", 58932]}' sent
+2020-09-06 12:27:18,837 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000027A8E52C7C0>, '127.0.0.1', 9090, 'Landen', 'e95a9d885eb45b290ef65537931ff2f4c96c7c60'), {})
+		вызванная main
+2020-09-06 12:28:24,647 INFO logger logging started
+2020-09-06 12:28:24,860 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:28:24 2020", "to": "a5d0c5550a658a6212f1e3b6e760705c297498b1", "from_user": "Quinn", "message": ["127.0.0.1", 58935]}' sent
+2020-09-06 12:28:24,989 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002145220C7C0>, '127.0.0.1', 9090, 'Quinn', 'a5d0c5550a658a6212f1e3b6e760705c297498b1'), {})
+		вызванная main
+2020-09-06 12:29:42,776 INFO logger logging started
+2020-09-06 12:29:42,972 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:29:42 2020", "to": "9c60f88c85347ac6aaa6501ae4cca155834a0392", "from_user": "Brielle", "message": ["127.0.0.1", 58938]}' sent
+2020-09-06 12:29:43,088 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000248F50DD7C0>, '127.0.0.1', 9090, 'Brielle', '9c60f88c85347ac6aaa6501ae4cca155834a0392'), {})
+		вызванная main
+2020-09-06 12:30:27,401 INFO class_client b'{"action": "message", "time": "Sun Sep  6 12:30:24 2020", "to": "asdasd", "from_user": "Brielle", "message": "asdasdasd"}' sent
+2020-09-06 12:43:48,927 INFO logger logging started
+2020-09-06 12:43:49,119 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:43:49 2020", "to": "45cc1064053f3f566cc715c85ee3e28c56ae032b", "from_user": "Jazmine", "message": ["127.0.0.1", 59041]}' sent
+2020-09-06 12:43:49,227 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001D5F72BC7F0>, '127.0.0.1', 9090, 'Jazmine', '45cc1064053f3f566cc715c85ee3e28c56ae032b'), {})
+		вызванная main
+2020-09-06 12:43:57,130 INFO class_client b'{"action": "message", "time": "Sun Sep  6 12:43:52 2020", "to": "asdasd", "from_user": "Jazmine", "message": "asdasdasdasd"}' sent
+2020-09-06 12:45:25,150 INFO logger logging started
+2020-09-06 12:45:25,368 INFO class_client b'{"action": "auth_info", "time": "Sun Sep  6 12:45:25 2020", "to": "fa01a71251b8d0570be498e47119d743e687f26a", "from_user": "Colin", "message": ["127.0.0.1", 59071]}' sent
+2020-09-06 12:45:25,473 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000017C18F0C7F0>, '127.0.0.1', 9090, 'Colin', 'fa01a71251b8d0570be498e47119d743e687f26a'), {})
+		вызванная main
+2020-09-06 12:45:32,354 INFO class_client b'{"action": "message", "time": "Sun Sep  6 12:45:28 2020", "to": "asdasd", "from_user": "Colin", "message": "asdasdasdasd"}' sent
+2020-09-06 12:45:37,623 INFO class_client b'{"action": "message", "time": "Sun Sep  6 12:45:34 2020", "to": "AS", "from_user": "Colin", "message": "ASDASDASDASD"}' sent
+2020-09-06 12:45:37,623 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+2020-09-06 13:20:45,651 INFO logger logging started
+2020-09-06 13:20:45,855 INFO class_client b'{"action": "auth_info", "time_date": "Sun Sep  6 13:20:45 2020", "to_user": "556d88cac46fa7b9359b2188ca081d16efe69481", "from_user": "Leyla", "message": ["127.0.0.1", 59343]}' sent
+2020-09-06 13:20:45,986 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000023A6B84B850>, '127.0.0.1', 9090, 'Leyla', '556d88cac46fa7b9359b2188ca081d16efe69481'), {})
+		вызванная main
+2020-09-06 13:24:12,538 INFO logger logging started
+2020-09-06 13:24:12,735 INFO class_client b'{"action": "auth_info", "time_date": "Sun Sep  6 13:24:12 2020", "to_user": "728b35bf0a6917e199b189f6865b52643e6f135b", "from_user": "Edwin", "message": ["127.0.0.1", 59366]}' sent
+2020-09-06 13:24:12,848 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001A42957B850>, '127.0.0.1', 9090, 'Edwin', '728b35bf0a6917e199b189f6865b52643e6f135b'), {})
+		вызванная main
+2020-09-06 13:26:59,111 INFO logger logging started
+2020-09-06 13:26:59,304 INFO class_client b'{"action": "auth_info", "time_date": "Sun Sep  6 13:26:59 2020", "to_user": "f3c37a7b84921d99d70799ee424f08defbef4ded", "from_user": "Adelina", "message": ["127.0.0.1", 59387]}' sent
+2020-09-06 13:26:59,409 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000230B5E2B850>, '127.0.0.1', 9090, 'Adelina', 'f3c37a7b84921d99d70799ee424f08defbef4ded'), {})
+		вызванная main
+2020-09-06 13:27:06,237 INFO class_client b'{"action": "message", "time_date": "Sun Sep  6 13:27:02 2020", "to_user": "asdasd", "from_user": "Adelina", "message": "asdasdasdasdasd"}' sent
+2020-09-06 13:27:25,379 INFO class_client b'{"action": "message", "time_date": "Sun Sep  6 13:27:18 2020", "to_user": "aSASDASDASD", "from_user": "Adelina", "message": "asdasdasdasdasdasdasd"}' sent
+2020-09-06 13:27:32,119 INFO class_client b'{"action": "message", "time_date": "Sun Sep  6 13:27:28 2020", "to_user": "asdasd", "from_user": "Adelina", "message": "asdasdasdasdasdasd"}' sent
+2020-09-06 13:32:18,513 INFO logger logging started
+2020-09-06 13:32:18,705 INFO class_client Message from Marc to 59bb3dce230292fc0ce403ae769b6d42e3796465,action: auth_info, date: Sun Sep  6 13:32:18 2020
+message: ('127.0.0.1', 59420) sent
+2020-09-06 13:32:18,810 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000270039CB850>, '127.0.0.1', 9090, 'Marc', '59bb3dce230292fc0ce403ae769b6d42e3796465'), {})
+		вызванная main
+2020-09-06 13:32:27,443 INFO class_client Message from Marc to asdasd,action: message, date: Sun Sep  6 13:32:24 2020
+message: asdasd sent
+2020-09-06 13:34:05,310 INFO logger logging started
+2020-09-06 13:34:05,500 INFO class_client Message from Kaysen to 98a35861255d8732dbf67996995e420db1ec9234,action: auth_info, date: Sun Sep  6 13:34:05 2020
+message: ('127.0.0.1', 59444) sent
+2020-09-06 13:34:05,617 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000026F79EFB850>, '127.0.0.1', 9090, 'Kaysen', '98a35861255d8732dbf67996995e420db1ec9234'), {})
+		вызванная main
+2020-09-06 13:36:28,618 INFO logger logging started
+2020-09-06 13:36:28,815 INFO class_client Message from Heidi to efc3dcf76d81b05ccc671dbd6c6c3c406916dc59,action: auth_info, date: Sun Sep  6 13:36:28 2020
+message: ('127.0.0.1', 59458) sent
+2020-09-06 13:36:28,945 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000023B16D0B850>, '127.0.0.1', 9090, 'Heidi', 'efc3dcf76d81b05ccc671dbd6c6c3c406916dc59'), {})
+		вызванная main
+2020-09-06 13:37:17,865 INFO logger logging started
+2020-09-06 13:37:18,059 INFO class_client Message from Kaylin to 873f3c255b953c9e485774461c5cf0a72152c7bd,action: auth_info, date: Sun Sep  6 13:37:18 2020
+message: ('127.0.0.1', 59465) sent
+2020-09-06 13:37:18,216 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000021FACC7B850>, '127.0.0.1', 9090, 'Kaylin', '873f3c255b953c9e485774461c5cf0a72152c7bd'), {})
+		вызванная main
+2020-09-06 13:37:26,731 INFO class_client Message from Kaylin to asdasdasd,action: message, date: Sun Sep  6 13:37:21 2020
+message: asdasdasdasdasdasdasd sent
+2020-09-06 13:45:54,515 INFO logger logging started
+2020-09-06 13:45:54,712 INFO class_client Message from Kynlee to f766ec365108709e6374e39dac8ea499b099154c, action: auth_info, date: Sun Sep  6 13:45:54 2020
+ message: ('127.0.0.1', 59524) sent
+2020-09-06 13:45:54,820 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000125517EC820>, '127.0.0.1', 9090, 'Kynlee', 'f766ec365108709e6374e39dac8ea499b099154c'), {})
+		вызванная main
+2020-09-06 13:46:05,700 INFO class_client Message from Kynlee to asdasdasd, action: message, date: Sun Sep  6 13:46:00 2020
+ message: asdasdasdasdasdasdasdasd sent
+2020-09-06 13:47:16,899 INFO logger logging started
+2020-09-06 13:47:17,093 INFO class_client Message from Reuben to d0d7e7e4ae0e5635587957cb3949d78b2e61fa21, action: auth_info, date: Sun Sep  6 13:47:17 2020
+ message: ('127.0.0.1', 59532) sent
+2020-09-06 13:47:17,203 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002BC5844B850>, '127.0.0.1', 9090, 'Reuben', 'd0d7e7e4ae0e5635587957cb3949d78b2e61fa21'), {})
+		вызванная main
+2020-09-06 13:47:24,067 INFO class_client Message from Reuben to asdasd, action: message, date: Sun Sep  6 13:47:20 2020
+ message: asdasdasdasdasd sent
+2020-09-06 13:48:35,782 INFO logger logging started
+2020-09-06 13:52:16,816 INFO logger logging started
+2020-09-06 13:54:44,055 INFO logger logging started
+2020-09-06 13:54:44,256 INFO class_client Message from Lorenzo to 4e0994f770a483fc1279b0b724159ba6e7b70de4, action: auth_info, date: Sun Sep  6 13:54:44 2020
+ message: ('127.0.0.1', 59704) sent
+2020-09-06 13:54:44,365 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000021118E8B850>, '127.0.0.1', 9090, 'Lorenzo', '4e0994f770a483fc1279b0b724159ba6e7b70de4'), {})
+		вызванная main
+2020-09-06 13:54:59,725 INFO class_client Message from Lorenzo to asdasd, action: message, date: Sun Sep  6 13:54:54 2020
+ message: asdasdasssssssssssssssssssssssssss sent
+2020-09-06 13:56:28,811 INFO logger logging started
+2020-09-06 13:56:29,008 INFO class_client Message from Jerome to 96e7cf87a3b8c448f90ec27b8b5e722f2f1074dd, action: auth_info, date: Sun Sep  6 13:56:29 2020
+ message: ('127.0.0.1', 59714) sent
+2020-09-06 13:56:29,119 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000023D1694B850>, '127.0.0.1', 9090, 'Jerome', '96e7cf87a3b8c448f90ec27b8b5e722f2f1074dd'), {})
+		вызванная main
+2020-09-06 13:56:35,284 INFO class_client Message from Jerome to asdasdasd, action: message, date: Sun Sep  6 13:56:31 2020
+ message: asddddddddddddddddddddddddddd sent
+2020-09-06 14:01:46,025 INFO logger logging started
+2020-09-06 14:01:46,220 INFO class_client Message from Emerson to 2575b182d93234cd38c037740a9081b5a4016ff0, action: auth_info, date: Sun Sep  6 14:01:46 2020
+ message: ('127.0.0.1', 59757) sent
+2020-09-06 14:01:46,334 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001B8EF94B850>, '127.0.0.1', 9090, 'Emerson', '2575b182d93234cd38c037740a9081b5a4016ff0'), {})
+		вызванная main
+2020-09-06 14:01:52,069 INFO class_client Message from Emerson to asdasd, action: message, date: Sun Sep  6 14:01:48 2020
+ message: asdasdasdasd sent
+2020-09-06 14:01:58,856 INFO class_client Message from Emerson to asd, action: message, date: Sun Sep  6 14:01:55 2020
+ message: asdasdasdasdasdasd sent
+2020-09-06 14:15:30,516 INFO logger logging started
+2020-09-06 14:15:30,714 INFO class_client Message from Gerardo to e848b7a0ddc73976338a34fe585acd426e73513c, action: auth_info, date: Sun Sep  6 14:15:30 2020
+ message: ('127.0.0.1', 59906) sent
+2020-09-06 14:15:30,819 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000019E8801B850>, '127.0.0.1', 9090, 'Gerardo', 'e848b7a0ddc73976338a34fe585acd426e73513c'), {})
+		вызванная main
+2020-09-06 14:16:26,345 INFO logger logging started
+2020-09-06 14:16:26,537 INFO class_client Message from Jerry to 7cd83679081b1de2710ec1fb11f17958ade1e1b9, action: auth_info, date: Sun Sep  6 14:16:26 2020
+ message: ('127.0.0.1', 59909) sent
+2020-09-06 14:16:26,649 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000019ECFEFB850>, '127.0.0.1', 9090, 'Jerry', '7cd83679081b1de2710ec1fb11f17958ade1e1b9'), {})
+		вызванная main
+2020-09-06 14:20:44,986 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 14:20:49,224 INFO logger logging started
+2020-09-06 14:20:49,420 INFO class_client Message from Jimmy to a90dedf4e56bb3364699cce73ee609b772542a34, action: auth_info, date: Sun Sep  6 14:20:49 2020
+ message: ('127.0.0.1', 59947) sent
+2020-09-06 14:20:49,530 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001E23C00B850>, '127.0.0.1', 9090, 'Jimmy', 'a90dedf4e56bb3364699cce73ee609b772542a34'), {})
+		вызванная main
+2020-09-06 14:27:50,436 INFO logger logging started
+2020-09-06 14:27:50,643 INFO class_client Message from Kyra to 0219c748fb6b4c59904f1159f4989119cbee8a5a, action: auth_info, date: Sun Sep  6 14:27:50 2020
+ message: ('127.0.0.1', 59997) sent
+2020-09-06 14:27:50,752 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002881415B850>, '127.0.0.1', 9090, 'Kyra', '0219c748fb6b4c59904f1159f4989119cbee8a5a'), {})
+		вызванная main
+2020-09-06 14:28:05,469 INFO class_client Message from Kyra to asdasd, action: message, date: Sun Sep  6 14:28:01 2020
+ message: asdasdasdasd sent
+2020-09-06 14:30:17,463 INFO logger logging started
+2020-09-06 14:30:17,656 INFO class_client Message from Reese to a4ad021822537025b6879ec8e8f0532234d9059a, action: auth_info, date: Sun Sep  6 14:30:17 2020
+ message: ('127.0.0.1', 60018) sent
+2020-09-06 14:30:17,761 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002006B27B850>, '127.0.0.1', 9090, 'Reese', 'a4ad021822537025b6879ec8e8f0532234d9059a'), {})
+		вызванная main
+2020-09-06 14:40:19,335 INFO logger logging started
+2020-09-06 14:40:19,527 INFO class_client Message from Holland to 39a6cdf5402811b2bd019764dbb6f8392d6ca8b5, action: auth_info, date: Sun Sep  6 14:40:19 2020
+ message: ('127.0.0.1', 60280) sent
+2020-09-06 14:40:19,636 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000029839B2B850>, '127.0.0.1', 9090, 'Holland', '39a6cdf5402811b2bd019764dbb6f8392d6ca8b5'), {})
+		вызванная main
+2020-09-06 14:40:31,858 INFO class_client Message from Holland to asdasd, action: message, date: Sun Sep  6 14:40:28 2020
+ message: asdasdasdasd sent
+2020-09-06 14:42:38,761 INFO logger logging started
+2020-09-06 14:42:38,952 INFO class_client Message from Francisco to 7c61fc445143a17cfaa951300340f9f95e41bcca, action: auth_info, date: Sun Sep  6 14:42:38 2020
+ message: ('127.0.0.1', 60293) sent
+2020-09-06 14:42:39,062 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000220D005B850>, '127.0.0.1', 9090, 'Francisco', '7c61fc445143a17cfaa951300340f9f95e41bcca'), {})
+		вызванная main
+2020-09-06 14:42:45,346 INFO class_client Message from Francisco to asd, action: message, date: Sun Sep  6 14:42:43 2020
+ message: asdasdasd sent
+2020-09-06 14:45:19,724 INFO logger logging started
+2020-09-06 14:45:19,915 INFO class_client Message from Bo to 312a3689c3de7972b02c58af460a76aecca6dc76, action: auth_info, date: Sun Sep  6 14:45:19 2020
+ message: ('127.0.0.1', 60316) sent
+2020-09-06 14:45:20,020 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000179C370B850>, '127.0.0.1', 9090, 'Bo', '312a3689c3de7972b02c58af460a76aecca6dc76'), {})
+		вызванная main
+2020-09-06 14:45:26,010 INFO class_client Message from Bo to asd, action: message, date: Sun Sep  6 14:45:23 2020
+ message: asdasdasd sent
+2020-09-06 14:58:19,322 INFO logger logging started
+2020-09-06 14:58:19,515 INFO class_client Message from Dawson to 512178c5f049e254c6c61e8ca5f22ecd5726aa99, action: auth_info, date: Sun Sep  6 14:58:19 2020
+ message: ('127.0.0.1', 60418) sent
+2020-09-06 14:58:19,637 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002034298B850>, '127.0.0.1', 9090, 'Dawson', '512178c5f049e254c6c61e8ca5f22ecd5726aa99'), {})
+		вызванная main
+2020-09-06 14:58:31,411 INFO class_client Message from Dawson to asdasd, action: message, date: Sun Sep  6 14:58:26 2020
+ message: asdasdasdasdasd sent
+2020-09-06 15:06:33,024 INFO logger logging started
+2020-09-06 15:06:33,218 INFO class_client Message from Laylah to 90e445f9c06084bb13c7e65eeeeca37613878356, action: auth_info, date: Sun Sep  6 15:06:33 2020
+ message: ('127.0.0.1', 60499) sent
+2020-09-06 15:06:33,482 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001928953B850>, '127.0.0.1', 9090, 'Laylah', '90e445f9c06084bb13c7e65eeeeca37613878356'), {})
+		вызванная main
+2020-09-06 15:06:39,200 INFO logger logging started
+2020-09-06 15:18:05,716 INFO logger logging started
+2020-09-06 15:18:05,908 INFO class_client Message from Taylor to ddb92ed3bd7aba09b075170a4a31eaf26661abf0, action: auth_info, date: Sun Sep  6 15:18:05 2020
+ message: ('127.0.0.1', 60621) sent
+2020-09-06 15:18:06,023 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002BEACB1B850>, '127.0.0.1', 9090, 'Taylor', 'ddb92ed3bd7aba09b075170a4a31eaf26661abf0'), {})
+		вызванная main
+2020-09-06 15:18:13,745 INFO class_client Message from Taylor to asd, action: message, date: Sun Sep  6 15:18:12 2020
+ message: asdasd sent
+2020-09-06 15:18:22,690 INFO logger logging started
+2020-09-06 15:18:22,885 INFO class_client Message from Quinton to 682bee0dbf92876d8f50a8ab1ae8d1e69b57b3e1, action: auth_info, date: Sun Sep  6 15:18:22 2020
+ message: ('127.0.0.1', 60623) sent
+2020-09-06 15:18:23,021 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001EF2C4AB850>, '127.0.0.1', 9090, 'Quinton', '682bee0dbf92876d8f50a8ab1ae8d1e69b57b3e1'), {})
+		вызванная main
+2020-09-06 15:19:14,223 INFO logger logging started
+2020-09-06 15:19:14,422 INFO class_client Message from Travis to 35a671da915f29be8a8c4c9bdaee8cab6fdf2ff1, action: auth_info, date: Sun Sep  6 15:19:14 2020
+ message: ('127.0.0.1', 60629) sent
+2020-09-06 15:19:14,530 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000016555A0B850>, '127.0.0.1', 9090, 'Travis', '35a671da915f29be8a8c4c9bdaee8cab6fdf2ff1'), {})
+		вызванная main
+2020-09-06 15:19:19,740 INFO class_client Message from Travis to dsf, action: message, date: Sun Sep  6 15:19:17 2020
+ message: sdfsdf sent
+2020-09-06 15:22:50,575 INFO logger logging started
+2020-09-06 15:22:50,776 INFO class_client Message from Cali to b79b4e864266600cbbbcf70cb2b68824a74c0dce, action: auth_info, date: Sun Sep  6 15:22:50 2020
+ message: ('127.0.0.1', 60663) sent
+2020-09-06 15:22:50,880 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000230EA0FC820>, '127.0.0.1', 9090, 'Cali', 'b79b4e864266600cbbbcf70cb2b68824a74c0dce'), {})
+		вызванная main
+2020-09-06 15:22:57,348 INFO class_client Message from Cali to asd, action: message, date: Sun Sep  6 15:22:54 2020
+ message: asdasdasd sent
+2020-09-06 15:23:02,380 INFO class_client Message from Cali to sdf, action: message, date: Sun Sep  6 15:22:59 2020
+ message: sdfsdfsdf sent
+2020-09-06 15:29:57,802 INFO logger logging started
+2020-09-06 15:29:58,134 INFO class_client Message from Sarah to 3bb432926576f83cf05fcb4c1f3bf570c022f686, action: auth_info, date: Sun Sep  6 15:29:58 2020
+ message: ('127.0.0.1', 60723) sent
+2020-09-06 15:29:58,244 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002303DDCCAC0>, '127.0.0.1', 9090, 'Sarah', '3bb432926576f83cf05fcb4c1f3bf570c022f686'), {})
+		вызванная main
+2020-09-06 15:30:11,079 INFO class_client Message from Sarah to asdasd, action: message, date: Sun Sep  6 15:30:07 2020
+ message: asdasdasdasd sent
+2020-09-06 15:30:16,940 INFO class_client Message from Sarah to sdfsdf, action: message, date: Sun Sep  6 15:30:13 2020
+ message: sdfsdfsdfsdfsdfsdf sent
+2020-09-06 17:49:39,237 INFO logger logging started
+2020-09-06 17:49:39,449 INFO class_client Message from Brentley to 74d1923b2dccd5fabf7a48c921faebc38f896c04, action: auth_info, date: Sun Sep  6 17:49:39 2020
+ message: ('127.0.0.1', 62443) sent
+2020-09-06 17:49:39,566 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000206D263B850>, '127.0.0.1', 9090, 'Brentley', '74d1923b2dccd5fabf7a48c921faebc38f896c04'), {})
+		вызванная main
+2020-09-06 17:50:03,026 INFO class_client Message from Brentley to Brentley, action: message, date: Sun Sep  6 17:49:58 2020
+ message: asdasdasdasdasd sent
+2020-09-06 17:50:59,241 INFO logger logging started
+2020-09-06 17:50:59,437 INFO class_client Message from Lorelai to 276e70235d9021b03d5ce8a8dbc7c4ebe321a2fb, action: auth_info, date: Sun Sep  6 17:50:59 2020
+ message: ('127.0.0.1', 62448) sent
+2020-09-06 17:50:59,541 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000026FFC1DB850>, '127.0.0.1', 9090, 'Lorelai', '276e70235d9021b03d5ce8a8dbc7c4ebe321a2fb'), {})
+		вызванная main
+2020-09-06 17:51:04,618 INFO class_client Message from Lorelai to asd, action: message, date: Sun Sep  6 17:51:01 2020
+ message: asd sent
+2020-09-06 17:53:31,486 INFO logger logging started
+2020-09-06 17:53:31,692 INFO class_client Message from Deshawn to c183a15a2960d12e3307902d171cb4e234dfc4e4, action: auth_info, date: Sun Sep  6 17:53:31 2020
+ message: ('127.0.0.1', 62456) sent
+2020-09-06 17:53:31,801 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000001A34857B850>, '127.0.0.1', 9090, 'Deshawn', 'c183a15a2960d12e3307902d171cb4e234dfc4e4'), {})
+		вызванная main
+2020-09-06 17:53:37,667 INFO class_client Message from Deshawn to asd, action: message, date: Sun Sep  6 17:53:35 2020
+ message: asdasd sent
+2020-09-06 18:00:12,084 INFO logger logging started
+2020-09-06 18:00:12,302 INFO class_client Message from Lewis to dde68d4b1a6a53d493e8dc54d0ae05b3655a96c5, action: auth_info, date: Sun Sep  6 18:00:12 2020
+ message: ('127.0.0.1', 62465) sent
+2020-09-06 18:00:12,410 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000250C2F9B850>, '127.0.0.1', 9090, 'Lewis', 'dde68d4b1a6a53d493e8dc54d0ae05b3655a96c5'), {})
+		вызванная main
+2020-09-06 18:00:18,155 INFO class_client Message from Lewis to asd, action: message, date: Sun Sep  6 18:00:15 2020
+ message: asd sent
+2020-09-06 18:14:44,450 INFO logger logging started
+2020-09-06 18:14:44,645 INFO class_client Message from Mackenzie to b2640a52bbc92fbc4fd3e406144ae7855ebe98a5, action: auth_info, date: Sun Sep  6 18:14:44 2020
+ message: ('127.0.0.1', 62514) sent
+2020-09-06 18:14:44,754 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000277B42FB850>, '127.0.0.1', 9090, 'Mackenzie', 'b2640a52bbc92fbc4fd3e406144ae7855ebe98a5'), {})
+		вызванная main
+2020-09-06 18:14:52,922 INFO class_client Message from Mackenzie to asd, action: message, date: Sun Sep  6 18:14:51 2020
+ message: asd sent
+2020-09-06 18:17:22,090 INFO logger logging started
+2020-09-06 18:17:22,313 INFO class_client Message from Monroe to f77f9e6e88876926f0a371d55df72a7ed0001efe, action: auth_info, date: Sun Sep  6 18:17:22 2020
+ message: ('127.0.0.1', 62522) sent
+2020-09-06 18:17:22,419 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002160F89B850>, '127.0.0.1', 9090, 'Monroe', 'f77f9e6e88876926f0a371d55df72a7ed0001efe'), {})
+		вызванная main
+2020-09-06 18:17:30,403 INFO class_client Message from Monroe to asd, action: message, date: Sun Sep  6 18:17:28 2020
+ message: asdasd sent
+2020-09-06 18:17:45,442 INFO class_client Message from Monroe to all, action: message, date: Sun Sep  6 18:17:40 2020
+ message: adasdasdasd sent
+2020-09-06 18:17:58,275 INFO class_client Message from Monroe to Monroe, action: message, date: Sun Sep  6 18:17:50 2020
+ message: sdfsdfsdfsdfsdf sent

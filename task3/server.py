@@ -7,6 +7,8 @@ from lib.class_server import Server
 from lib.decorators import log_dec
 
 
+
+
 @log_dec
 def main(*args, **kwargs):
     parser = argparse.ArgumentParser(description='Server app')
