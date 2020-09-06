@@ -7,8 +7,6 @@ from lib.class_server import Server
 from lib.decorators import log_dec
 
 
-
-
 @log_dec
 def main(*args, **kwargs):
     parser = argparse.ArgumentParser(description='Server app')
@@ -17,7 +15,7 @@ def main(*args, **kwargs):
     args = parser.parse_args()
     ip = str(args.ip).strip()
     # s = Server(ip, args.prt,)
-    s = Server('127.0.0.1', 9090,)
+    s = Server('127.0.0.1', 9090, )
     s.mainloop()
 
 

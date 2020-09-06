@@ -1,7 +1,12 @@
 import logging
 import sys
 import time
+import os
 
+try:
+    os.mkdir('log')
+except OSError:
+    pass
 
 if 'client.py' in str(sys.argv):
     log = logging.getLogger('client.app')
