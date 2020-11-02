@@ -333,3 +333,18 @@ message: asdasdasdasdasdasdasd
  message: ['127.0.0.1', 62514]
 2020-09-06 18:14:52,928 DEBUG class_server data = Message from Mackenzie to asd, action: message, date: Sun Sep  6 18:14:51 2020
  message: asd
+2020-09-06 18:17:19,444 INFO logger logging started
+2020-09-06 18:17:22,313 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62522)
+2020-09-06 18:17:22,314 DEBUG class_server data = Message from Monroe to f77f9e6e88876926f0a371d55df72a7ed0001efe, action: auth_info, date: Sun Sep  6 18:17:22 2020
+ message: ['127.0.0.1', 62522]
+2020-09-06 18:17:30,486 DEBUG class_server data = Message from Monroe to asd, action: message, date: Sun Sep  6 18:17:28 2020
+ message: asdasd
+2020-09-06 18:17:45,445 DEBUG class_server data = Message from Monroe to all, action: message, date: Sun Sep  6 18:17:40 2020
+ message: adasdasdasd
+2020-09-06 18:17:58,331 DEBUG class_server data = Message from Monroe to Monroe, action: message, date: Sun Sep  6 18:17:50 2020
+ message: sdfsdfsdfsdfsdf
+2020-09-06 18:23:36,360 INFO class_server Клиент 296 ('127.0.0.1', 62522) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2020-09-06 18:23:43,462 INFO class_server Получен запрос на соединение с ('127.0.0.1', 62567)
+2020-09-06 18:23:43,462 DEBUG class_server data = Message from Alberto to b50bc6b1fee83addb66d43165ec57bdb58e3e8fa, action: auth_info, date: Sun Sep  6 18:23:43 2020
+ message: ['127.0.0.1', 62567]

@@ -371,3 +371,10 @@ message: asdasdasdasdasdasdasd sent
  message: adasdasdasd sent
 2020-09-06 18:17:58,275 INFO class_client Message from Monroe to Monroe, action: message, date: Sun Sep  6 18:17:50 2020
  message: sdfsdfsdfsdfsdf sent
+2020-09-06 18:23:43,262 INFO logger logging started
+2020-09-06 18:23:43,462 INFO class_client Message from Alberto to b50bc6b1fee83addb66d43165ec57bdb58e3e8fa, action: auth_info, date: Sun Sep  6 18:23:43 2020
+ message: ('127.0.0.1', 62567) sent
+2020-09-06 18:23:43,571 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000023EDF16C820>, '127.0.0.1', 9090, 'Alberto', 'b50bc6b1fee83addb66d43165ec57bdb58e3e8fa'), {})
+		вызванная main
+2020-09-06 18:33:37,664 CRITICAL class_client Something wrong. No answer from server.
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
