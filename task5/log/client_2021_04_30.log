@@ -1,0 +1,19 @@
+2021-04-30 23:38:11,752 INFO logger logging started
+2021-04-30 23:38:12,701 INFO logger logging started
+2021-04-30 23:38:12,971 INFO class_client Message from Kenna to 8119ee56546c55bef343e6effb9eb0579e7c842c, action: auth_info, date: Fri Apr 30 23:38:12 2021
+ message: ('127.0.0.1', 49742) sent
+2021-04-30 23:38:13,166 INFO class_client Message from Hayley to f3354c3b1c7323e05e6e30a12f1bbd15094c09f8, action: auth_info, date: Fri Apr 30 23:38:13 2021
+ message: ('127.0.0.1', 49743) sent
+2021-04-30 23:38:13,191 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x00000193A847AD90>, '127.0.0.1', 9090, 'Kenna', '8119ee56546c55bef343e6effb9eb0579e7c842c'), {})
+		вызванная main
+2021-04-30 23:38:13,336 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x0000019471E2BD90>, '127.0.0.1', 9090, 'Hayley', 'f3354c3b1c7323e05e6e30a12f1bbd15094c09f8'), {})
+		вызванная main
+2021-04-30 23:38:13,638 INFO logger logging started
+2021-04-30 23:38:14,042 INFO class_client Message from Emory to f803bf7790e4e3f3b0127936cf2632e6a00ff52c, action: auth_info, date: Fri Apr 30 23:38:14 2021
+ message: ('127.0.0.1', 49744) sent
+2021-04-30 23:38:14,185 DEBUG decorators Отработала фуккция __init__ с параметрами ((<lib.class_client.Client object at 0x000002232644BD90>, '127.0.0.1', 9090, 'Emory', 'f803bf7790e4e3f3b0127936cf2632e6a00ff52c'), {})
+		вызванная main
+2021-04-30 23:39:04,297 INFO class_client Message from Hayley to , action: message, date: Fri Apr 30 23:38:58 2021
+ message: asdasdasdasd sent
+2021-04-30 23:39:30,179 INFO class_client Message from Hayley to Emory, action: message, date: Fri Apr 30 23:39:23 2021
+ message: asdasdasdasd sent

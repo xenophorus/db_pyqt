@@ -1,0 +1,20 @@
+2021-04-30 23:38:12,449 INFO logger logging started
+2021-04-30 23:38:12,977 INFO class_server Получен запрос на соединение с ('127.0.0.1', 49742)
+2021-04-30 23:38:12,978 DEBUG class_server data = Message from Kenna to 8119ee56546c55bef343e6effb9eb0579e7c842c, action: auth_info, date: Fri Apr 30 23:38:12 2021
+ message: ['127.0.0.1', 49742]
+2021-04-30 23:38:13,166 INFO class_server Получен запрос на соединение с ('127.0.0.1', 49743)
+2021-04-30 23:38:13,167 DEBUG class_server data = Message from Hayley to f3354c3b1c7323e05e6e30a12f1bbd15094c09f8, action: auth_info, date: Fri Apr 30 23:38:13 2021
+ message: ['127.0.0.1', 49743]
+2021-04-30 23:38:14,042 INFO class_server Получен запрос на соединение с ('127.0.0.1', 49744)
+2021-04-30 23:38:14,043 DEBUG class_server data = Message from Emory to f803bf7790e4e3f3b0127936cf2632e6a00ff52c, action: auth_info, date: Fri Apr 30 23:38:14 2021
+ message: ['127.0.0.1', 49744]
+2021-04-30 23:39:04,314 DEBUG class_server data = Message from Hayley to , action: message, date: Fri Apr 30 23:38:58 2021
+ message: asdasdasdasd
+2021-04-30 23:39:30,184 DEBUG class_server data = Message from Hayley to Emory, action: message, date: Fri Apr 30 23:39:23 2021
+ message: asdasdasdasd
+2021-04-30 23:40:05,091 INFO class_server Клиент 912 ('127.0.0.1', 49742) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2021-04-30 23:40:06,103 INFO class_server Клиент 892 ('127.0.0.1', 49744) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2021-04-30 23:40:07,331 INFO class_server Клиент 624 ('127.0.0.1', 49743) отключился
+		[WinError 10054] Удаленный хост принудительно разорвал существующее подключение
